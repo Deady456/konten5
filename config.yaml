@@ -1,0 +1,42 @@
+niche: "fakta sains dan alam liar yang mengejutkan (hewan unik, fenomena alam, penemuan ilmiah, misteri alam)"
+audience: "orang dewasa Indonesia yang penasaran dengan fakta unik sains dan keajaiban alam"
+language: id
+
+script:
+  model: llama-3.3-70b-versatile
+  target_seconds: 65
+  words_per_second: 2.5
+
+voice:
+  provider: edge
+  voice: id-ID-ArdiNeural
+  rate: "-12%"
+  pitch: "+0Hz"
+
+captions:
+  whisper_model: base
+  font: "Anton"
+  font_size: 90
+  primary_color: "&H00FFFFFF"
+  outline_color: "&H00000000"
+  outline: 6
+  words_per_caption: 3
+  position_y: 0.55
+
+video:
+  width: 1080
+  height: 1920
+  fps: 30
+
+upload:
+  privacy: "public"
+  category_id: "27"
+  made_for_kids: false
+  channel: "v5"
+  default_tags: ["fakta unik", "sains", "alam liar", "pengetahuan", "hewan unik", "fenomena alam", "fakta sains", "edukasi"]
+
+comments:
+  model: llama-3.1-8b-instant
+  poll_interval_minutes: 180
+  auto_reply: true
+  delete_spam: true

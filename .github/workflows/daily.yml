@@ -54,7 +54,7 @@ jobs:
           else
             git config user.name "github-actions"
             git config user.email "actions@github.com"
-            git add token_v5.json
+            git add token_v5.json state.json
             git commit -m "auto: refresh YouTube token"
             git push
           fi

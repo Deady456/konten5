@@ -2,6 +2,8 @@ name: Daily AI Video
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 23,5,11 * * *'
 
 jobs:
   generate:
@@ -16,7 +18,7 @@ jobs:
             echo "run=true" >> $GITHUB_OUTPUT
           else
             HOUR=$(date -u +%H)
-            if echo "1 7 13" | grep -qw "$HOUR"; then
+            if echo "23 5 11" | grep -qw "$HOUR"; then
               echo "run=true" >> $GITHUB_OUTPUT
             else
               echo "run=false" >> $GITHUB_OUTPUT

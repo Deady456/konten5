@@ -1,6 +1,7 @@
 {
   "used_topics": [
-    "gurita-mimikri"
+    "gurita-mimikri",
+    "bioluminesensi-laut-dalam"
   ],
   "published": [
     {
@@ -9,6 +10,14 @@
       "title": "Gurita Pembunuh yang Bisa Meniru Wajah Manusia?",
       "path": "/home/runner/work/konten5/konten5/output/20260709_220245_gurita-mimikri/final.mp4",
       "video_id": "VXXVq4joEL0",
+      "publish_at": null
+    },
+    {
+      "ts": "20260710_030230",
+      "topic": "bioluminesensi-laut-dalam",
+      "title": "Mengungkap Rahasia Cahaya Ajaib di Laut Dalam",
+      "path": "/home/runner/work/konten5/konten5/output/20260710_030230_bioluminesensi-laut-dalam/final.mp4",
+      "video_id": "_l4a0ZpFy_E",
       "publish_at": null
     }
   ]

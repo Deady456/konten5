@@ -3,7 +3,8 @@
     "gurita-mimikri",
     "bioluminesensi-laut-dalam",
     "penemuan-mikroba-ekstremofil",
-    "fenomena-superior-pada-ikan-laut-dalam"
+    "fenomena-superior-pada-ikan-laut-dalam",
+    "misteri-hidup-abadi"
   ],
   "published": [
     {
@@ -36,6 +37,14 @@
       "title": "Ikan Laut Dalam dengan Mata di Atas Kepala?",
       "path": "/home/runner/work/konten5/konten5/output/20260710_100205_fenomena-superior-pada-ikan-laut-dalam/final.mp4",
       "video_id": "7ixiEKovjgc",
+      "publish_at": null
+    },
+    {
+      "ts": "20260710_220144",
+      "topic": "misteri-hidup-abadi",
+      "title": "Mengenal Turbo: Hidup Abadi Tanpa Tua",
+      "path": "/home/runner/work/konten5/konten5/output/20260710_220144_misteri-hidup-abadi/final.mp4",
+      "video_id": "VAUaOogRZsk",
       "publish_at": null
     }
   ]

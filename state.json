@@ -2,7 +2,8 @@
   "used_topics": [
     "gurita-mimikri",
     "bioluminesensi-laut-dalam",
-    "penemuan-mikroba-ekstremofil"
+    "penemuan-mikroba-ekstremofil",
+    "fenomena-superior-pada-ikan-laut-dalam"
   ],
   "published": [
     {
@@ -27,6 +28,14 @@
       "title": "Mikroba Paling Tahan Banting di Bumi: Fakta Mengejutkan!",
       "path": "/home/runner/work/konten5/konten5/output/20260710_070144_penemuan-mikroba-ekstremofil/final.mp4",
       "video_id": "Dt5Vg265dPc",
+      "publish_at": null
+    },
+    {
+      "ts": "20260710_100205",
+      "topic": "fenomena-superior-pada-ikan-laut-dalam",
+      "title": "Ikan Laut Dalam dengan Mata di Atas Kepala?",
+      "path": "/home/runner/work/konten5/konten5/output/20260710_100205_fenomena-superior-pada-ikan-laut-dalam/final.mp4",
+      "video_id": "7ixiEKovjgc",
       "publish_at": null
     }
   ]

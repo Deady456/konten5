@@ -1,7 +1,8 @@
 {
   "used_topics": [
     "gurita-mimikri",
-    "bioluminesensi-laut-dalam"
+    "bioluminesensi-laut-dalam",
+    "penemuan-mikroba-ekstremofil"
   ],
   "published": [
     {
@@ -18,6 +19,14 @@
       "title": "Mengungkap Rahasia Cahaya Ajaib di Laut Dalam",
       "path": "/home/runner/work/konten5/konten5/output/20260710_030230_bioluminesensi-laut-dalam/final.mp4",
       "video_id": "_l4a0ZpFy_E",
+      "publish_at": null
+    },
+    {
+      "ts": "20260710_070144",
+      "topic": "penemuan-mikroba-ekstremofil",
+      "title": "Mikroba Paling Tahan Banting di Bumi: Fakta Mengejutkan!",
+      "path": "/home/runner/work/konten5/konten5/output/20260710_070144_penemuan-mikroba-ekstremofil/final.mp4",
+      "video_id": "Dt5Vg265dPc",
       "publish_at": null
     }
   ]

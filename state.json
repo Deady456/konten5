@@ -4,7 +4,8 @@
     "bioluminesensi-laut-dalam",
     "penemuan-mikroba-ekstremofil",
     "fenomena-superior-pada-ikan-laut-dalam",
-    "misteri-hidup-abadi"
+    "misteri-hidup-abadi",
+    "fenomena-sonik-hutan"
   ],
   "published": [
     {
@@ -45,6 +46,14 @@
       "title": "Mengenal Turbo: Hidup Abadi Tanpa Tua",
       "path": "/home/runner/work/konten5/konten5/output/20260710_220144_misteri-hidup-abadi/final.mp4",
       "video_id": "VAUaOogRZsk",
+      "publish_at": null
+    },
+    {
+      "ts": "20260711_040226",
+      "topic": "fenomena-sonik-hutan",
+      "title": "Mengapa Hutan Bisa Mengeluarkan Suara Misterius?",
+      "path": "/home/runner/work/konten5/konten5/output/20260711_040226_fenomena-sonik-hutan/final.mp4",
+      "video_id": "hPktUdKNfzc",
       "publish_at": null
     }
   ]

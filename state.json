@@ -5,7 +5,8 @@
     "penemuan-mikroba-ekstremofil",
     "fenomena-superior-pada-ikan-laut-dalam",
     "misteri-hidup-abadi",
-    "fenomena-sonik-hutan"
+    "fenomena-sonik-hutan",
+    "fenomena-badai-listrik-vulkanik"
   ],
   "published": [
     {
@@ -54,6 +55,14 @@
       "title": "Mengapa Hutan Bisa Mengeluarkan Suara Misterius?",
       "path": "/home/runner/work/konten5/konten5/output/20260711_040226_fenomena-sonik-hutan/final.mp4",
       "video_id": "hPktUdKNfzc",
+      "publish_at": null
+    },
+    {
+      "ts": "20260711_100240",
+      "topic": "fenomena-badai-listrik-vulkanik",
+      "title": "Badai Listrik di Balik Letusan Vulkanik, Fenomena Alam yang Mengagumkan",
+      "path": "/home/runner/work/konten5/konten5/output/20260711_100240_fenomena-badai-listrik-vulkanik/final.mp4",
+      "video_id": "nlMhF3rzbtM",
       "publish_at": null
     }
   ]

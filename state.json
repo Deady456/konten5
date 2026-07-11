@@ -6,7 +6,8 @@
     "fenomena-superior-pada-ikan-laut-dalam",
     "misteri-hidup-abadi",
     "fenomena-sonik-hutan",
-    "fenomena-badai-listrik-vulkanik"
+    "fenomena-badai-listrik-vulkanik",
+    "fenomena-gelembung-lava"
   ],
   "published": [
     {
@@ -63,6 +64,14 @@
       "title": "Badai Listrik di Balik Letusan Vulkanik, Fenomena Alam yang Mengagumkan",
       "path": "/home/runner/work/konten5/konten5/output/20260711_100240_fenomena-badai-listrik-vulkanik/final.mp4",
       "video_id": "nlMhF3rzbtM",
+      "publish_at": null
+    },
+    {
+      "ts": "20260711_220143",
+      "topic": "fenomena-gelembung-lava",
+      "title": "Mengungkap Misteri Gelembung Lava yang Mengapung di Laut",
+      "path": "/home/runner/work/konten5/konten5/output/20260711_220143_fenomena-gelembung-lava/final.mp4",
+      "video_id": "C9LUUNvutZg",
       "publish_at": null
     }
   ]

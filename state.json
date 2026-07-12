@@ -8,7 +8,8 @@
     "fenomena-sonik-hutan",
     "fenomena-badai-listrik-vulkanik",
     "fenomena-gelembung-lava",
-    "penemuan-kristal-galian-raksasa"
+    "penemuan-kristal-galian-raksasa",
+    "kehidupan-ekosistem-gua-es"
   ],
   "published": [
     {
@@ -82,6 +83,15 @@
       "path": "/home/runner/work/konten5/konten5/output/20260712_092849_penemuan-kristal-galian-raksasa/final.mp4",
       "video_id": "45HEFbuh8po",
       "publish_at": null
+    },
+    {
+      "ts": "20260712_220228",
+      "topic": "kehidupan-ekosistem-gua-es",
+      "title": "Mengungkap Misteri Kehidupan Di Gua Es Abadi",
+      "path": "/home/runner/work/konten5/konten5/output/20260712_220228_kehidupan-ekosistem-gua-es/final.mp4",
+      "video_id": "P8wS1yGEwtY",
+      "publish_at": null
     }
-  ]
+  ],
+  "_voice_idx": 1
 }

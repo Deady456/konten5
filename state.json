@@ -10,7 +10,8 @@
     "fenomena-gelembung-lava",
     "penemuan-kristal-galian-raksasa",
     "kehidupan-ekosistem-gua-es",
-    "fenomena-alam-singapura"
+    "fenomena-alam-singapura",
+    "penemuan-fosil-pinguin-riaksasa"
   ],
   "published": [
     {
@@ -100,7 +101,15 @@
       "path": "/home/runner/work/konten5/konten5/output/20260713_060259_fenomena-alam-singapura/final.mp4",
       "video_id": "NHTRuZCjeuE",
       "publish_at": null
+    },
+    {
+      "ts": "20260713_220233",
+      "topic": "penemuan-fosil-pinguin-riaksasa",
+      "title": "Pinguin Setinggi 2 Meter, Apakah Ini Hewan Paling Misterius di Bumi?",
+      "path": "/home/runner/work/konten5/konten5/output/20260713_220233_penemuan-fosil-pinguin-riaksasa/final.mp4",
+      "video_id": "6rBBKDkr7so",
+      "publish_at": null
     }
   ],
-  "_voice_idx": 2
+  "_voice_idx": 3
 }

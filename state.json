@@ -11,7 +11,8 @@
     "penemuan-kristal-galian-raksasa",
     "kehidupan-ekosistem-gua-es",
     "fenomena-alam-singapura",
-    "penemuan-fosil-pinguin-riaksasa"
+    "penemuan-fosil-pinguin-riaksasa",
+    "penemuan-burung-mimikri-suara"
   ],
   "published": [
     {
@@ -109,7 +110,15 @@
       "path": "/home/runner/work/konten5/konten5/output/20260713_220233_penemuan-fosil-pinguin-riaksasa/final.mp4",
       "video_id": "6rBBKDkr7so",
       "publish_at": null
+    },
+    {
+      "ts": "20260714_060229",
+      "topic": "penemuan-burung-mimikri-suara",
+      "title": "Burung Paling Licik di Dunia, Meng-copy Suara untuk Bertahan Hidup",
+      "path": "/home/runner/work/konten5/konten5/output/20260714_060229_penemuan-burung-mimikri-suara/final.mp4",
+      "video_id": "JAWRwF-eYKk",
+      "publish_at": null
     }
   ],
-  "_voice_idx": 3
+  "_voice_idx": 4
 }

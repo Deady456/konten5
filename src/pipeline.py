@@ -65,6 +65,7 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True) -> d
         out_path=work / "final_raw.mp4",
         work_dir=work / "ffmpeg",
         videos_per_scene=2,
+        hook_text=data["title"],
     )
     dur = time.time() - t0
     sz = final.stat().st_size / (1024 * 1024)
@@ -126,3 +127,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

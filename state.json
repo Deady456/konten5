@@ -10,7 +10,8 @@
     "fenomena-gelembung-lava",
     "penemuan-kristal-galian-raksasa",
     "penemuan-alam-singkapan-es",
-    "fenomena-penggandaan-kromosom-pada-tumbuhan"
+    "fenomena-penggandaan-kromosom-pada-tumbuhan",
+    "fenomena-penggantian-warna-bulu-burung"
   ],
   "published": [
     {
@@ -102,7 +103,16 @@
       "video_id": null,
       "publish_at": null,
       "format": null
+    },
+    {
+      "ts": "20260715_165108",
+      "topic": "fenomena-penggantian-warna-bulu-burung",
+      "title": "Burung yang Bisa Mengganti Warna Bulu Secara Ajaib!",
+      "path": "/home/runner/work/konten5/konten5/output/20260715_165108_fenomena-penggantian-warna-bulu-burung/final.mp4",
+      "video_id": "G5rWc3Ln0EE",
+      "publish_at": null,
+      "format": null
     }
   ],
-  "_voice_idx": 3
+  "_voice_idx": 4
 }

@@ -111,15 +111,15 @@ def build(
     if hook_text and hook_cfg.get("enabled", False):
         ht_font = str(ROOT / "assets" / "fonts" / "Anton-Regular.ttf").replace("\\", "/").replace(":", "\\:")
         ht_size = hook_cfg.get("font_size", 80)
-        ht_color = hook_cfg.get("color", "white")
-        ht_outline = hook_cfg.get("outline", 4)
         ht_duration = hook_cfg.get("duration", 3)
-        safe_text = hook_text.replace("'", "\u2019").replace(":", "\\:")
+        safe_text = hook_text.replace("'", "\u2019").replace(":", "\\:").replace("%", "%%")
+        # White text, horizontal scroll from right to left
         vf_parts.append(
             f"drawtext=fontfile='{ht_font}':text='{safe_text}'"
-            f":fontsize={ht_size}:fontcolor={ht_color}"
-            f":borderw={ht_outline}:bordercolor=black"
-            f":x=(w-tw)/2:y=(h-th)/2"
+            f":fontsize={ht_size}:fontcolor=white"
+            f":borderw=4:bordercolor=black"
+            f":x='w-mod((n/{fps})*((w+tw)/{ht_duration}),w+tw)'"
+            f":y=(h-th)/2"
             f":enable='between(t\\,0\\,{ht_duration})'"
         )
     vf_parts.append(f"subtitles='{ass_arg}':fontsdir='{fonts_arg}'")
@@ -135,4 +135,5 @@ def build(
         str(out_path),
     ], "final render (video+audio+captions)")
     return out_path
+
 

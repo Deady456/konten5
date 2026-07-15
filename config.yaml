@@ -29,7 +29,7 @@ captions:
   whisper_model: base
   font: "Anton"
   font_size: 55
-  primary_color: "&H00FFFFFF"
+  primary_color: "white"
   outline_color: "&H00000000"
   outline: 6
   words_per_caption: 3
@@ -53,7 +53,7 @@ hook_text:
   enabled: true
   font: "Anton"
   font_size: 80
-  color: "&H00FFFFFF"
+  color: "white"
   outline_color: "&H00000000"
   outline: 4
   position: "center"

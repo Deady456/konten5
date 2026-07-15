@@ -118,7 +118,7 @@ def build(
             f"drawtext=fontfile='{ht_font}':text='{safe_text}'"
             f":fontsize={ht_size}:fontcolor=white"
             f":borderw=4:bordercolor=black"
-            f":x='w-mod((n/{fps})*((w+tw)/{ht_duration}),w+tw)'"
+            f":x=(w-tw)/2"
             f":y=(h-th)/2"
             f":enable='between(t\\,0\\,{ht_duration})'"
         )

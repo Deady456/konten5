@@ -199,7 +199,7 @@ def build(
         else:
             l1, l2, l3 = hook_text, "", ""
             
-        ht_dur = durations[0]
+        ht_dur = float(hook_cfg.get("duration", 3.0))
         def fmt_time(sec):
             h = int(sec // 3600)
             m = int((sec % 3600) // 60)
@@ -244,7 +244,7 @@ def build(
             if l3: styled += f"\\N{{\\c{c3}}}{l3}"
             events.append(f"Dialogue: 0,{fmt_time(shake_dur)},{fmt_time(ht_dur)},HookText,,0,0,0,,{styled}")
 
-        events_str = "\\n".join(events)
+        events_str = "\n".join(events)
 
         hook_ass = work_dir / "hook.ass"
         ass_content = f"""[Script Info]

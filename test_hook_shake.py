@@ -35,7 +35,7 @@ def run_test():
     # Hitung durasi hook berdasarkan kata yang ditranskrip
     scenes = [{"text": hook_text}, {"text": full_text.replace(hook_text, "").strip()}]
     durations = _scene_durations(words, scenes)
-    ht_dur = durations[0]
+    ht_dur = 3.0
     print(f"    Durasi pembacaan hook: {ht_dur:.2f} detik")
     
     # Pilih 3 warna acak

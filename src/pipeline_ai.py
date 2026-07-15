@@ -57,6 +57,7 @@ def run_once(publish_at: str | None = None,
         scenes=data["scenes"],
         out_path=work / "final.mp4",
         work_dir=work / "ffmpeg",
+        hook_text=data["title"],
     )
     dur = time.time() - t0
     sz = final.stat().st_size / (1024 * 1024)

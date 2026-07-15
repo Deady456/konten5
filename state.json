@@ -13,7 +13,8 @@
     "fenomena-alam-singapura",
     "penemuan-fosil-pinguin-riaksasa",
     "penemuan-burung-mimikri-suara",
-    "penemuan-gurita-transparan"
+    "penemuan-gurita-transparan",
+    "penemuan-kaktus-berkarang"
   ],
   "published": [
     {
@@ -128,7 +129,16 @@
       "video_id": "fZaLwgeYvBg",
       "publish_at": null,
       "format": null
+    },
+    {
+      "ts": "20260715_072718",
+      "topic": "penemuan-kaktus-berkarang",
+      "title": "Kaktus Berkarang: Fakta Menarik Tentang Tanaman Unik Ini",
+      "path": "/home/runner/work/konten5/konten5/output/20260715_072718_penemuan-kaktus-berkarang/final.mp4",
+      "video_id": "6o8Uu1BfwzE",
+      "publish_at": null,
+      "format": null
     }
   ],
-  "_voice_idx": 5
+  "_voice_idx": 6
 }

@@ -199,10 +199,6 @@ def build(
         else:
             l1, l2, l3 = hook_text, "", ""
             
-        styled = f"{{\\pos(540,600)}}{{\\c{c1}}}{l1}"
-        if l2: styled += f"\\N{{\\c{c2}}}{l2}"
-        if l3: styled += f"\\N{{\\c{c3}}}{l3}"
-
         ht_dur = durations[0]
         def fmt_time(sec):
             h = int(sec // 3600)
@@ -211,8 +207,35 @@ def build(
             cs = int((sec % 1) * 100)
             return f"{h}:{m:02d}:{s:02d}.{cs:02d}"
 
+        # Generate shaking text for the first 0.5 seconds
+        shake_dur = min(0.5, ht_dur)
+        frames = int(shake_dur * 30)
+        events = []
+        if frames > 0:
+            frame_len = shake_dur / frames
+            for i in range(frames):
+                st = i * frame_len
+                en = (i + 1) * frame_len
+                dx = random.randint(-20, 20)
+                dy = random.randint(-20, 20)
+                pos = f"{{\\pos({540+dx},{600+dy})}}"
+                styled = f"{pos}{{\\c{c1}}}{l1}"
+                if l2: styled += f"\\N{{\\c{c2}}}{l2}"
+                if l3: styled += f"\\N{{\\c{c3}}}{l3}"
+                events.append(f"Dialogue: 0,{fmt_time(st)},{fmt_time(en)},HookText,,0,0,0,,{styled}")
+        
+        # Static text for the rest of the duration
+        if ht_dur > shake_dur:
+            pos = f"{{\\pos(540,600)}}"
+            styled = f"{pos}{{\\c{c1}}}{l1}"
+            if l2: styled += f"\\N{{\\c{c2}}}{l2}"
+            if l3: styled += f"\\N{{\\c{c3}}}{l3}"
+            events.append(f"Dialogue: 0,{fmt_time(shake_dur)},{fmt_time(ht_dur)},HookText,,0,0,0,,{styled}")
+
+        events_str = "\\n".join(events)
+
         hook_ass = work_dir / "hook.ass"
-        ass_content = f\"\"\"[Script Info]
+        ass_content = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
 PlayResY: 1920
@@ -223,8 +246,8 @@ Style: HookText,Impact,130,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,{fmt_time(ht_dur)},HookText,,0,0,0,,{styled}
-\"\"\"
+{events_str}
+"""
         with open(hook_ass, "w", encoding="utf-8") as f:
             f.write(ass_content)
 

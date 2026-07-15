@@ -216,9 +216,21 @@ def build(
             for i in range(frames):
                 st = i * frame_len
                 en = (i + 1) * frame_len
+                
+                # Ease-out progress
+                p = st / shake_dur
+                ease_out = 1 - (1 - p) ** 3
+                
+                # Fade in (Alpha FF to 00)
+                alpha_val = int(255 * (1 - ease_out))
+                alpha_tag = f"\\alpha&H{alpha_val:02X}&"
+                
+                # Slide from left to center
+                x_center = int(-300 + (840) * ease_out)
+                
                 dx = random.randint(-20, 20)
                 dy = random.randint(-20, 20)
-                pos = f"{{\\pos({540+dx},{600+dy})}}"
+                pos = f"{{\\pos({x_center+dx},{600+dy}){alpha_tag}}}"
                 styled = f"{pos}{{\\c{c1}}}{l1}"
                 if l2: styled += f"\\N{{\\c{c2}}}{l2}"
                 if l3: styled += f"\\N{{\\c{c3}}}{l3}"

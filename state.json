@@ -12,7 +12,8 @@
     "kehidupan-ekosistem-gua-es",
     "fenomena-alam-singapura",
     "penemuan-fosil-pinguin-riaksasa",
-    "penemuan-burung-mimikri-suara"
+    "penemuan-burung-mimikri-suara",
+    "penemuan-gurita-transparan"
   ],
   "published": [
     {
@@ -118,7 +119,16 @@
       "path": "/home/runner/work/konten5/konten5/output/20260714_060229_penemuan-burung-mimikri-suara/final.mp4",
       "video_id": "JAWRwF-eYKk",
       "publish_at": null
+    },
+    {
+      "ts": "20260715_063926",
+      "topic": "penemuan-gurita-transparan",
+      "title": "Gurita Transparan Ditemukan Di Laut Dalam, Apa Rahasianya?",
+      "path": "/home/runner/work/konten5/konten5/output/20260715_063926_penemuan-gurita-transparan/final.mp4",
+      "video_id": "fZaLwgeYvBg",
+      "publish_at": null,
+      "format": null
     }
   ],
-  "_voice_idx": 4
+  "_voice_idx": 5
 }

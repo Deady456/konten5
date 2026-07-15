@@ -4,7 +4,7 @@ language: id
 
 script:
   model: llama-3.3-70b-versatile
-  target_seconds: 60
+  target_seconds: 55
   words_per_second: 2.5
 
 voice:
@@ -14,8 +14,8 @@ voice:
     enabled: true
     voices:
       - edge_id: "id-ID-ArdiNeural"
-        elevenlabs_id: "21m00Tcm4TlvDq8ikWAM"
-        name: "Ardi"
+        elevenlabs_id: "VR6AewLTigWG4xSOukaG"
+        name: "Arnold"
         gender: "male"
       - edge_id: "id-ID-ArdiNeural"
         elevenlabs_id: "ErXwobaYiN019PkySvjV"
@@ -23,12 +23,12 @@ voice:
         gender: "male"
     strategy: "round_robin"
   voice: id-ID-ArdiNeural
-  elevenlabs_voice_id: 21m00Tcm4TlvDq8ikWAM
+  elevenlabs_voice_id: VR6AewLTigWG4xSOukaG
 
 captions:
   whisper_model: base
   font: "Anton"
-  font_size: 90
+  font_size: 55
   primary_color: "&H00FFFFFF"
   outline_color: "&H00000000"
   outline: 6
@@ -44,24 +44,21 @@ upload:
   privacy: "public"
   category_id: "27"
   made_for_kids: false
-  channel: "v5"
+  channel: "lofisleep"
   default_tags: ["fakta unik", "sains", "alam liar", "pengetahuan", "hewan unik", "fenomena alam", "fakta sains", "edukasi"]
 
 
 
-music:
+hook_text:
   enabled: true
-  source: "local"
-  local_dir: "assets/music"
-  volume: 0.03
-  fade_in: 2.0
-  fade_out: 3.0
-  mood_mapping:
-    list: "upbeat"
-    story: "cinematic"
-    comparison: "neutral"
-    myth_busting: "suspense"
-    neutral: "neutral"
+  font: "Anton"
+  font_size: 80
+  color: "white"
+  outline_color: "&H00000000"
+  outline: 4
+  position: "center"
+  duration: 3
+
 branding:
   enabled: true
   intro:
@@ -79,30 +76,4 @@ branding:
     position: "center"
     opacity: 0.6
     size: 300
-  comment_box:
-    enabled: true
-    position: "bottom"
-    delay_seconds: 1.5
-    font: "Anton"
-    font_size: 26
-    font_color: "black"
-    box_color: "white@0.9"
-    box_radius: 20
-    margin: 40
-    comments:
-      - "Keren banget! Ga nyangka gitu"
-      - "Wajib tahu nih buat semua orang!"
-      - "Fakta yang jarang diketahui orang"
-      - "Ternyata begini ya, mantap!"
-      - "Share ke temen yang belum tau!"
-      - "Baru tau gw, ternyata begitu"
-      - "Wah, ga sangka bisa begitu!"
-      - "Beneran? Cekidot guys!"
-      - "Info penting nih, jangan skip!"
-      - "Setuju gak sama fakta ini?"
 
-comments:
-  model: llama-3.1-8b-instant
-  poll_interval_minutes: 180
-  auto_reply: true
-  delete_spam: true

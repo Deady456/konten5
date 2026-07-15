@@ -26,7 +26,7 @@ def run_once(publish_at: str | None = None,
     _log("3/7 Transcribing for word-level captions (Faster-Whisper)")
     _log("    loading model (first run downloads)...")
     t0 = time.time()
-    words = captions.transcribe_words(voice_mp3)
+    words = captions.transcribe_words(voice_mp3, original_text=data["full_text"])
     _log(f"    {len(words)} words in {time.time()-t0:.1f}s")
 
     _log("4/7 Generating AI images via Pollinations")
@@ -44,7 +44,14 @@ def run_once(publish_at: str | None = None,
         image_paths.append(img_path)
 
     _log("5/7 Writing caption file")
-    ass_path = captions.write_ass(words, work / "captions.ass",
+    hook_text = data.get("thumbnail_text", "")
+    hook_cfg = CONFIG.get("hook_text", {})
+    if hook_text and hook_cfg.get("enabled", False):
+        captions_words = words[len(hook_text.split()):]
+    else:
+        captions_words = words
+
+    ass_path = captions.write_ass(captions_words, work / "captions.ass",
                                   CONFIG["video"]["width"], CONFIG["video"]["height"])
 
     _log("6/7 Assembling slideshow video with ffmpeg")

@@ -50,7 +50,14 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True) -> d
 
     _log("5/8 Writing caption file")
     from .config import CONFIG as CFG
-    ass_path = captions.write_ass(words, work / "captions.ass",
+    hook_text = data.get("thumbnail_text", "")
+    hook_cfg = CFG.get("hook_text", {})
+    if hook_text and hook_cfg.get("enabled", False):
+        captions_words = words[len(hook_text.split()):]
+    else:
+        captions_words = words
+
+    ass_path = captions.write_ass(captions_words, work / "captions.ass",
                                   CFG["video"]["width"], CFG["video"]["height"])
 
     _log("6/8 Assembling final video with ffmpeg")

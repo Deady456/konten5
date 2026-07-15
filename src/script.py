@@ -151,6 +151,11 @@ def generate():
             {"role": "user", "content": user_msg},
         ])
 
+        hook_text = data.get("thumbnail_text", "").strip()
+        if hook_text and data.get("scenes"):
+            first_vq = data["scenes"][0].get("visual_query", "abstract background")
+            data["scenes"].insert(0, {"text": hook_text, "visual_query": first_vq})
+
         for i, sc in enumerate(data["scenes"]):
             if "visual_query" not in sc or not sc["visual_query"]:
                 words = re.findall(r"[a-zA-Z]{3,}", sc.get("text", ""))

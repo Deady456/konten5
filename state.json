@@ -11,7 +11,8 @@
     "penemuan-kristal-galian-raksasa",
     "penemuan-alam-singkapan-es",
     "fenomena-penggandaan-kromosom-pada-tumbuhan",
-    "fenomena-penggantian-warna-bulu-burung"
+    "fenomena-penggantian-warna-bulu-burung",
+    "penemuan-fosil-ikan-berkaki"
   ],
   "published": [
     {
@@ -112,7 +113,16 @@
       "video_id": "G5rWc3Ln0EE",
       "publish_at": null,
       "format": null
+    },
+    {
+      "ts": "20260715_230207",
+      "topic": "penemuan-fosil-ikan-berkaki",
+      "title": "Ikan Berkaki: Fenomena Evolusi yang Mengubah Sejarah Alam",
+      "path": "/home/runner/work/konten5/konten5/output/20260715_230207_penemuan-fosil-ikan-berkaki/final.mp4",
+      "video_id": "JGGfQ_gQom8",
+      "publish_at": null,
+      "format": null
     }
   ],
-  "_voice_idx": 4
+  "_voice_idx": 5
 }

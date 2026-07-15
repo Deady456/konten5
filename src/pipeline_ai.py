@@ -67,11 +67,11 @@ def run_once(publish_at: str | None = None,
     branded = branding.apply_all(final, work / "branding")
     if branded != final:
         final_branded = work / "final.mp4"
-        branded.rename(final_branded)
+        branded.replace(final_branded)
         final = final_branded
     else:
         final_branded = work / "final.mp4"
-        final.rename(final_branded)
+        final.replace(final_branded)
         final = final_branded
     video_id = None
     if upload_to_youtube:

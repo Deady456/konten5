@@ -15,14 +15,24 @@ _VARIATIONS = [
 
 
 def search_vertical(query: str, min_duration: float = 3.0, result_index: int = 0) -> str | None:
-    r = requests.get(
-        API,
-        headers={"Authorization": PEXELS_API_KEY},
-        params={"query": query, "orientation": "portrait", "per_page": 15, "size": "medium"},
-        timeout=30,
-    )
-    r.raise_for_status()
-    videos = r.json().get("videos", [])
+    for attempt in range(3):
+        try:
+            r = requests.get(
+                API,
+                headers={"Authorization": PEXELS_API_KEY},
+                params={"query": query, "orientation": "portrait", "per_page": 15, "size": "medium"},
+                timeout=30,
+            )
+            r.raise_for_status()
+            videos = r.json().get("videos", [])
+            break
+        except requests.RequestException as e:
+            if attempt == 2:
+                print(f"      Pexels search failed after 3 attempts: {e}")
+                return None
+            time.sleep(2)
+    else:
+        videos = []
     matches = []
     for v in videos:
         if v.get("duration", 0) < min_duration:
@@ -39,18 +49,26 @@ def search_vertical(query: str, min_duration: float = 3.0, result_index: int = 0
 
 
 def download(url: str, out_path: Path) -> Path:
-    with requests.get(url, stream=True, timeout=120) as r:
-        r.raise_for_status()
-        sz = int(r.headers.get("content-length", 0))
-        with open(out_path, "wb") as f:
-            downloaded = 0
-            for chunk in r.iter_content(1 << 20):
-                f.write(chunk)
-                downloaded += len(chunk)
-                if sz:
-                    pct = downloaded * 100 // sz
-                    if pct % 25 == 0:
-                        print(f"      downloading... {pct}%")
+    for attempt in range(3):
+        try:
+            with requests.get(url, stream=True, timeout=120) as r:
+                r.raise_for_status()
+                sz = int(r.headers.get("content-length", 0))
+                with open(out_path, "wb") as f:
+                    downloaded = 0
+                    for chunk in r.iter_content(1 << 20):
+                        f.write(chunk)
+                        downloaded += len(chunk)
+                        if sz:
+                            pct = downloaded * 100 // sz
+                            if pct % 25 == 0:
+                                print(f"      downloading... {pct}%")
+            return out_path
+        except requests.RequestException as e:
+            if attempt == 2:
+                print(f"      Download failed after 3 attempts: {e}")
+                raise
+            time.sleep(2)
     return out_path
 
 

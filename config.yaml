@@ -29,7 +29,7 @@ captions:
   whisper_model: base
   font: "Anton"
   font_size: 55
-  primary_color: "&H00000000"
+  primary_color: "&H00FFFFFF"
   outline_color: "&H00FFFFFF"
   outline: 6
   words_per_caption: 3

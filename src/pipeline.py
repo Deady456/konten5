@@ -27,7 +27,7 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True) -> d
         selected_format = None
 
     _log("1/8 Generating script with LLM")
-    data = script.generate(content_format=selected_format)
+    data = script.generate()
     _log(f"    topic: {data['topic']} ({len(data['scenes'])} scenes)")
 
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")

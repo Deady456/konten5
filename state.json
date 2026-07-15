@@ -14,7 +14,8 @@
     "penemuan-fosil-pinguin-riaksasa",
     "penemuan-burung-mimikri-suara",
     "penemuan-gurita-transparan",
-    "penemuan-kaktus-berkarang"
+    "penemuan-kaktus-berkarang",
+    "fenomena-bongkahan-es-berwarna"
   ],
   "published": [
     {
@@ -138,7 +139,16 @@
       "video_id": "6o8Uu1BfwzE",
       "publish_at": null,
       "format": null
+    },
+    {
+      "ts": "20260715_074832",
+      "topic": "fenomena-bongkahan-es-berwarna",
+      "title": "Bongkahan Es Berwarna Misterius di Kutub",
+      "path": "/home/runner/work/konten5/konten5/output/20260715_074832_fenomena-bongkahan-es-berwarna/final.mp4",
+      "video_id": "fYvtmP-a2Os",
+      "publish_at": null,
+      "format": null
     }
   ],
-  "_voice_idx": 6
+  "_voice_idx": 7
 }

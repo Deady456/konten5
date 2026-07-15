@@ -43,6 +43,7 @@ def build(
     scenes: list[dict],
     out_path: Path,
     work_dir: Path,
+    hook_text: str = "",
 ) -> Path:
     v = CONFIG["video"]
     w, h, fps = v["width"], v["height"], v["fps"]
@@ -103,13 +104,35 @@ def build(
 
     ass_arg = str(captions_ass).replace("\\", "/").replace(":", "\\:")
     fonts_arg = str(ROOT / "assets" / "fonts").replace("\\", "/").replace(":", "\\:")
+
+    # Build video filter chain: optional hook_text drawtext + subtitles
+    vf_parts = []
+    hook_cfg = CONFIG.get("hook_text", {})
+    if hook_text and hook_cfg.get("enabled", False):
+        ht_font = str(ROOT / "assets" / "fonts" / "Anton-Regular.ttf").replace("\\", "/").replace(":", "\\:")
+        ht_size = hook_cfg.get("font_size", 80)
+        ht_color = hook_cfg.get("color", "white")
+        ht_outline = hook_cfg.get("outline", 4)
+        ht_duration = hook_cfg.get("duration", 3)
+        safe_text = hook_text.replace("'", "\u2019").replace(":", "\\:")
+        vf_parts.append(
+            f"drawtext=fontfile='{ht_font}':text='{safe_text}'"
+            f":fontsize={ht_size}:fontcolor={ht_color}"
+            f":borderw={ht_outline}:bordercolor=black"
+            f":x=(w-tw)/2:y=(h-th)/2"
+            f":enable='between(t\\,0\\,{ht_duration})'"
+        )
+    vf_parts.append(f"subtitles='{ass_arg}':fontsdir='{fonts_arg}'")
+    vf_chain = ",".join(vf_parts)
+
     _run([
         "ffmpeg", "-y",
         "-i", str(combined), "-i", str(voice_audio),
-        "-vf", f"subtitles='{ass_arg}':fontsdir='{fonts_arg}'",
+        "-vf", vf_chain,
         "-c:v", "libx264", "-preset", "medium", "-crf", "20",
         "-c:a", "aac", "-b:a", "192k", "-pix_fmt", "yuv420p",
         "-movflags", "+faststart", "-shortest",
         str(out_path),
     ], "final render (video+audio+captions)")
     return out_path
+

@@ -49,6 +49,16 @@ upload:
 
 
 
+hook_text:
+  enabled: true
+  font: "Anton"
+  font_size: 80
+  color: "&H00FFFFFF"
+  outline_color: "&H00000000"
+  outline: 4
+  position: "center"
+  duration: 3
+
 branding:
   enabled: true
   intro:

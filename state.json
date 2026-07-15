@@ -8,7 +8,9 @@
     "fenomena-sonik-hutan",
     "fenomena-badai-listrik-vulkanik",
     "fenomena-gelembung-lava",
-    "penemuan-kristal-galian-raksasa"
+    "penemuan-kristal-galian-raksasa",
+    "penemuan-alam-singkapan-es",
+    "fenomena-penggandaan-kromosom-pada-tumbuhan"
   ],
   "published": [
     {
@@ -82,6 +84,25 @@
       "path": "/home/runner/work/konten5/konten5/output/20260712_092849_penemuan-kristal-galian-raksasa/final.mp4",
       "video_id": "45HEFbuh8po",
       "publish_at": null
+    },
+    {
+      "ts": "20260712_203329",
+      "topic": "penemuan-alam-singkapan-es",
+      "title": "Es Biru Misterius di Antartika Mengungkap Rahasia Alam",
+      "path": "C:\\Users\\Administrator\\Desktop\\konten5\\output\\20260712_203329_penemuan-alam-singkapan-es\\final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": null
+    },
+    {
+      "ts": "20260715_185017",
+      "topic": "fenomena-penggandaan-kromosom-pada-tumbuhan",
+      "title": "Tumbuhan Dengan Kemampuan Penggandaan Kromosom, Fakta Sains Yang Mengagumkan",
+      "path": "C:\\Users\\Administrator\\Desktop\\konten5\\output\\20260715_185017_fenomena-penggandaan-kromosom-pada-tumbuhan\\final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": null
     }
-  ]
+  ],
+  "_voice_idx": 3
 }

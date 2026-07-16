@@ -77,3 +77,6 @@ branding:
     opacity: 0.6
     size: 300
 
+upload_tiktok:
+  enabled: true
+  session_file: "tiktok_cookies.txt"

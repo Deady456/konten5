@@ -2,7 +2,7 @@ import argparse
 import re
 import time
 from datetime import datetime
-from . import script, voice, captions, visuals, assemble, upload, state, branding
+from . import script, voice, captions, visuals, assemble, upload, upload_tiktok, state, branding
 from .config import CONFIG, OUTPUT_DIR
 
 
@@ -14,7 +14,7 @@ def _log(msg: str):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}")
 
 
-def run_once(publish_at: str | None = None, upload_to_youtube: bool = True) -> dict:
+def run_once(publish_at: str | None = None, do_upload: bool = True, tiktok_only: bool = False) -> dict:
     content_cfg = CONFIG.get("content_variation", {})
     if content_cfg.get("enabled", False):
         formats = content_cfg.get("formats", ["list"])
@@ -93,16 +93,30 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True) -> d
     _log(f"    final: {final.name} ({sz:.0f} MB)")
 
     video_id = None
-    if upload_to_youtube:
-        _log("8/8 Uploading to YouTube")
-        video_id = upload.upload_video(
-            video_path=final,
-            title=data["title"],
-            description=data["description"],
-            tags=data["tags"],
-            publish_at=publish_at,
-        )
-        _log(f"    uploaded: https://youtube.com/shorts/{video_id}")
+    if do_upload:
+        if not tiktok_only:
+            _log("8/8 a Uploading to YouTube")
+            try:
+                video_id = upload.upload_video(
+                    video_path=final,
+                    title=data["title"],
+                    description=data["description"],
+                    tags=data["tags"],
+                    publish_at=publish_at,
+                )
+                _log(f"    uploaded: https://youtube.com/shorts/{video_id}")
+            except Exception as e:
+                _log(f"    [Error] YouTube upload failed: {e}")
+        else:
+            _log("8/8 a YouTube Upload skipped (--tiktok-only)")
+
+        
+        tiktok_cfg = CONFIG.get("upload_tiktok", {})
+        if tiktok_cfg.get("enabled", False):
+            _log("8/8 b Uploading to TikTok")
+            tiktok_desc = f"{data['title']} " + " ".join([f"#{t.replace(' ', '')}" for t in data['tags']])
+            upload_tiktok.upload_video(final, tiktok_desc)
+            
     else:
         _log("8/8 Upload skipped (--no-upload)")
 
@@ -124,8 +138,9 @@ def main():
     p.add_argument("--no-upload", action="store_true", help="Build only, don't upload")
     p.add_argument("--publish-at", default=None,
                    help="ISO8601 UTC timestamp for scheduled publish")
+    p.add_argument("--tiktok-only", action="store_true", help="Only upload to TikTok, skip YouTube")
     args = p.parse_args()
-    run_once(publish_at=args.publish_at, upload_to_youtube=not args.no_upload)
+    run_once(publish_at=args.publish_at, do_upload=not args.no_upload, tiktok_only=args.tiktok_only)
 
     print("\n" + "-" * 60)
     print("Done!")

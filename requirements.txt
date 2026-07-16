@@ -10,3 +10,5 @@ Pillow>=10.0.0
 requests>=2.32.0
 python-dotenv>=1.0.0
 PyYAML>=6.0
+tiktok-uploader>=0.1.5
+playwright>=1.40.0

@@ -60,6 +60,10 @@ jobs:
                       f.write(f'{k}=\"{v_escaped}\"\n')
           "
 
+      - name: Create TikTok Cookies
+        run: |
+          echo "${{ secrets.TIKTOK_COOKIES }}" > tiktok_cookies.txt
+
       - name: Decode YouTube credentials
         run: |
           echo "${{ secrets.CLIENT_SECRET_B64 }}" | base64 -d > client_secret.json

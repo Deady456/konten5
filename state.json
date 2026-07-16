@@ -18,7 +18,8 @@
     "fenomena-bongkahan-es-berwarna",
     "fenomena-pasang-surf-bawah-laut",
     "fenomena-gelombang-laut-pasang-bulanan",
-    "fenomena-pembentukan kristal-garam-laut"
+    "fenomena-pembentukan kristal-garam-laut",
+    "fenomena-pembentukan-danau-lubang"
   ],
   "published": [
     {
@@ -177,7 +178,16 @@
       "video_id": "o2JXuKjCPCU",
       "publish_at": null,
       "format": null
+    },
+    {
+      "ts": "20260716_230131",
+      "topic": "fenomena-pembentukan-danau-lubang",
+      "title": "Danau Lubang Misterius di Bumi",
+      "path": "/home/runner/work/konten5/konten5/output/20260716_230131_fenomena-pembentukan-danau-lubang/final.mp4",
+      "video_id": "qp__G8Sgp2U",
+      "publish_at": null,
+      "format": null
     }
   ],
-  "_voice_idx": 16
+  "_voice_idx": 17
 }

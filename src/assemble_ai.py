@@ -113,7 +113,7 @@ def build(
         ht_size = hook_cfg.get("font_size", 80)
         ht_duration = hook_cfg.get("duration", 3)
         safe_text = hook_text.replace("'", "\u2019").replace(":", "\\:").replace("%", "%%")
-                vf_parts.append(
+        vf_parts.append(
             f"drawtext=fontfile='{ht_font}':text='{safe_text}'"
             f":fontsize={ht_size}:fontcolor=white"
             f":borderw=4:bordercolor=black"
@@ -134,5 +134,3 @@ def build(
         str(out_path),
     ], "final render (video+audio+captions)")
     return out_path
-
-

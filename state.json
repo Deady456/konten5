@@ -15,7 +15,9 @@
     "penemuan-burung-mimikri-suara",
     "penemuan-gurita-transparan",
     "penemuan-kaktus-berkarang",
-    "fenomena-bongkahan-es-berwarna"
+    "fenomena-bongkahan-es-berwarna",
+    "fenomena-pasang-surf-bawah-laut",
+    "fenomena-gelombang-laut-pasang-bulanan"
   ],
   "published": [
     {
@@ -148,7 +150,24 @@
       "video_id": "fYvtmP-a2Os",
       "publish_at": null,
       "format": null
+    },
+    {
+      "ts": "20260716_000227",
+      "topic": "fenomena-pasang-surf-bawah-laut",
+      "title": "Fenomena Laut Dalam: Pasang Surf Bawah Laut yang Mengherankan",
+      "path": "C:\\Users\\Administrator\\Desktop\\konten5\\output\\20260716_000227_fenomena-pasang-surf-bawah-laut\\final.mp4",
+      "video_id": null,
+      "publish_at": null
+    },
+    {
+      "ts": "20260716_001937",
+      "topic": "fenomena-gelombang-laut-pasang-bulanan",
+      "title": "Mengapa Gelombang Laut Pasang Bulanan Menghancurkan Pantai?",
+      "path": "C:\\Users\\Administrator\\Desktop\\konten5\\output\\20260716_001937_fenomena-gelombang-laut-pasang-bulanan\\final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": null
     }
   ],
-  "_voice_idx": 7
+  "_voice_idx": 15
 }

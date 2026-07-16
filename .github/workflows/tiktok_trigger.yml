@@ -44,14 +44,19 @@ jobs:
           echo "${{ secrets.TIKTOK_COOKIES }}" > tiktok_cookies.txt
 
       - name: Create YouTube credentials (Optional)
-        if: github.event.inputs.tiktok_only == 'false' && secrets.YOUTUBE_CLIENT_SECRET != ''
+        if: inputs.tiktok_only == false
+        env:
+          Y_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          Y_TOKEN: ${{ secrets.YOUTUBE_TOKEN }}
         run: |
-          echo "${{ secrets.YOUTUBE_CLIENT_SECRET }}" > client_secret.json
-          echo "${{ secrets.YOUTUBE_TOKEN }}" > token_default.json
+          if [ -n "$Y_SECRET" ]; then
+            echo "$Y_SECRET" > client_secret.json
+            echo "$Y_TOKEN" > token_default.json
+          fi
 
       - name: Run Pipeline
         run: |
-          if [ "${{ github.event.inputs.tiktok_only }}" = "true" ]; then
+          if [ "${{ inputs.tiktok_only }}" = "true" ]; then
             python -m src.pipeline --tiktok-only
           else
             python -m src.pipeline

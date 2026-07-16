@@ -33,13 +33,17 @@ jobs:
 
       - name: Create .env file
         env:
-          GROQ: ${{ secrets.GROQ_API_KEY }}
-          PEX: ${{ secrets.PEXELS_API_KEY }}
-          EL: ${{ secrets.ELEVENLABS_API_KEYS }}
+          ALL_SECRETS: ${{ toJson(secrets) }}
         run: |
-          echo "GROQ_API_KEY=\"$GROQ\"" > .env
-          echo "PEXELS_API_KEY=\"$PEX\"" >> .env
-          echo "ELEVENLABS_API_KEYS=\"$EL\"" >> .env
+          python -c "
+          import os, json
+          secrets = json.loads(os.environ['ALL_SECRETS'])
+          with open('.env', 'w') as f:
+              for k, v in secrets.items():
+                  if k.startswith('GROQ_API_KEY') or k in ['PEXELS_API_KEY', 'ELEVENLABS_API_KEYS']:
+                      v_escaped = v.replace('\n', '\\n')
+                      f.write(f'{k}=\"{v_escaped}\"\n')
+          "
 
       - name: Create TikTok Cookies
         run: |

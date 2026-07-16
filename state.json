@@ -17,7 +17,8 @@
     "penemuan-kaktus-berkarang",
     "fenomena-bongkahan-es-berwarna",
     "fenomena-pasang-surf-bawah-laut",
-    "fenomena-gelombang-laut-pasang-bulanan"
+    "fenomena-gelombang-laut-pasang-bulanan",
+    "fenomena-pembentukan kristal-garam-laut"
   ],
   "published": [
     {
@@ -167,7 +168,16 @@
       "video_id": null,
       "publish_at": null,
       "format": null
+    },
+    {
+      "ts": "20260716_150239",
+      "topic": "fenomena-pembentukan kristal-garam-laut",
+      "title": "Kristal Garam Laut yang Mengagumkan",
+      "path": "/home/runner/work/konten5/konten5/output/20260716_150239_fenomena-pembentukan-kristal-garam-laut/final.mp4",
+      "video_id": "o2JXuKjCPCU",
+      "publish_at": null,
+      "format": null
     }
   ],
-  "_voice_idx": 15
+  "_voice_idx": 16
 }

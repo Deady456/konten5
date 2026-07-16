@@ -12,7 +12,8 @@
     "penemuan-alam-singkapan-es",
     "fenomena-penggandaan-kromosom-pada-tumbuhan",
     "fenomena-penggantian-warna-bulu-burung",
-    "penemuan-fosil-ikan-berkaki"
+    "penemuan-fosil-ikan-berkaki",
+    "sifat-magnetik-pada-serangga"
   ],
   "published": [
     {
@@ -122,7 +123,16 @@
       "video_id": "JGGfQ_gQom8",
       "publish_at": null,
       "format": null
+    },
+    {
+      "ts": "20260716_070147",
+      "topic": "sifat-magnetik-pada-serangga",
+      "title": "Serangga Menggunakan Medan Magnet untuk Navigasi?",
+      "path": "/home/runner/work/konten5/konten5/output/20260716_070147_sifat-magnetik-pada-serangga/final.mp4",
+      "video_id": "Cb5As1Fl3VM",
+      "publish_at": null,
+      "format": null
     }
   ],
-  "_voice_idx": 5
+  "_voice_idx": 6
 }

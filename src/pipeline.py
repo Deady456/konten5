@@ -2,7 +2,7 @@
 import re
 import time
 from datetime import datetime
-from . import script, voice, captions, visuals, assemble, upload, upload_tiktok, state, branding
+from . import script, voice, captions, visuals, assemble, upload, upload_tiktok, state, visuals_ai, branding
 from .config import CONFIG, OUTPUT_DIR
 
 
@@ -47,6 +47,15 @@ def run_once(publish_at: str | None = None, do_upload: bool = True, tiktok_only:
     _log("4/8 Fetching footage from Pexels")
     scene_videos = visuals.fetch_for_scenes(data["scenes"], work / "broll")
     _log(f"    {len(scene_videos)} clips ready")
+
+    _log("5.5/8 Generating AI thumbnail with Pollinations")
+    try:
+        thumbnail_img = work / "thumbnail.jpg"
+        hook_text_ai = data.get("thumbnail_text", data["title"])
+        visuals_ai.generate(prompt=hook_text_ai, out_path=thumbnail_img, hook_text=hook_text_ai)
+    except Exception as e:
+        _log(f"    Failed to generate thumbnail: {e}")
+        thumbnail_img = None
 
     _log("5/8 Writing caption file")
     from .config import CONFIG as CFG

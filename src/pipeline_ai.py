@@ -72,7 +72,7 @@ def run_once(publish_at: str | None = None,
         scenes=data["scenes"],
         out_path=work / "final.mp4",
         work_dir=work / "ffmpeg",
-        hook_text="",  # Text is already burned into the image by Pillow
+        hook_text="", has_hook=bool(hook_text),
     )
     dur = time.time() - t0
     sz = final.stat().st_size / (1024 * 1024)

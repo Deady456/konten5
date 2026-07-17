@@ -57,7 +57,7 @@ hook_text:
   outline_color: "&H00000000"
   outline: 4
   position: "center"
-  duration: 3
+  duration: 2
 
 branding:
   enabled: true
@@ -68,7 +68,7 @@ branding:
   outro:
     enabled: false
     path: "assets/branding/outro.mp4"
-    duration: 3.0
+    duration: 2.0
     cta_text: "Subscribe untuk fakta unik lainnya!"
   watermark:
     enabled: true

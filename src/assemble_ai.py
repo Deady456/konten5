@@ -61,7 +61,7 @@ def build(
     
     # Ensure hook stays on screen for at least 3 seconds
     if has_hook and len(durations) > 1:
-        target_hook_dur = 3.0
+        target_hook_dur = float(CONFIG.get("hook_text", {}).get("duration", 2.0))
         if durations[0] < target_hook_dur:
             deficit = target_hook_dur - durations[0]
             durations[0] = target_hook_dur

@@ -24,7 +24,8 @@
     "fenomena-pembentukan-danau-lubang",
     "fenomena-penghuni-bawah-tanah",
     "fenomena-alam-gelombang-panas",
-    "penemuan-organisme-penghasil-biofilm"
+    "penemuan-organisme-penghasil-biofilm",
+    "fenomena-pohon-pemakan-daging"
   ],
   "published": [
     {
@@ -234,7 +235,15 @@
       "path": "/home/runner/work/konten5/konten5/output/20260717_150225_penemuan-organisme-penghasil-biofilm/final.mp4",
       "video_id": "cf9eLe9dMlY",
       "publish_at": null
+    },
+    {
+      "ts": "20260717_175634",
+      "topic": "fenomena-pohon-pemakan-daging",
+      "title": "Pohon Pemakan Daging: Fakta Mengagetkan tentang Tumbuhan Keparat",
+      "path": "/home/runner/work/konten5/konten5/output/20260717_175634_fenomena-pohon-pemakan-daging/final.mp4",
+      "video_id": "fD6-fKgVmjQ",
+      "publish_at": null
     }
   ],
-  "_voice_idx": 22
+  "_voice_idx": 24
 }

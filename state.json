@@ -20,8 +20,7 @@
     "fenomena-gelombang-laut-pasang-bulanan",
     "fenomena-pembentukan kristal-garam-laut",
     "fenomena-pendar-luminesen-di-hutan-hujan",
-    "fenomena-singkat-umur-bintang"
-,
+    "fenomena-singkat-umur-bintang",
     "fenomena-pembentukan-danau-lubang"
   ],
   "published": [
@@ -197,10 +196,8 @@
       "path": "C:\\Users\\Administrator\\Desktop\\konten5\\output\\20260717_002308_fenomena-singkat-umur-bintang\\final.mp4",
       "video_id": null,
       "publish_at": null
-    }
-  ],
-  "_voice_idx": 18
-,
+    },
+    {
       "ts": "20260716_230131",
       "topic": "fenomena-pembentukan-danau-lubang",
       "title": "Danau Lubang Misterius di Bumi",
@@ -210,5 +207,5 @@
       "format": null
     }
   ],
-  "_voice_idx": 17
+  "_voice_idx": 18
 }

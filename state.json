@@ -21,7 +21,8 @@
     "fenomena-pembentukan kristal-garam-laut",
     "fenomena-pendar-luminesen-di-hutan-hujan",
     "fenomena-singkat-umur-bintang",
-    "fenomena-pembentukan-danau-lubang"
+    "fenomena-pembentukan-danau-lubang",
+    "fenomena-penghuni-bawah-tanah"
   ],
   "published": [
     {
@@ -205,7 +206,16 @@
       "video_id": "qp__G8Sgp2U",
       "publish_at": null,
       "format": null
+    },
+    {
+      "ts": "20260717_025958",
+      "topic": "fenomena-penghuni-bawah-tanah",
+      "title": "Mahluk Penghuni Bawah Tanah Yang Tidak Terduga",
+      "path": "/home/runner/work/konten5/konten5/output/20260717_025958_fenomena-penghuni-bawah-tanah/final.mp4",
+      "video_id": "9LSS64gfLAk",
+      "publish_at": null,
+      "format": null
     }
   ],
-  "_voice_idx": 18
+  "_voice_idx": 19
 }

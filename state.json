@@ -18,7 +18,9 @@
     "fenomena-bongkahan-es-berwarna",
     "fenomena-pasang-surf-bawah-laut",
     "fenomena-gelombang-laut-pasang-bulanan",
-    "fenomena-pembentukan kristal-garam-laut"
+    "fenomena-pembentukan kristal-garam-laut",
+    "fenomena-pendar-luminesen-di-hutan-hujan",
+    "fenomena-singkat-umur-bintang"
   ],
   "published": [
     {
@@ -177,7 +179,23 @@
       "video_id": "o2JXuKjCPCU",
       "publish_at": null,
       "format": null
+    },
+    {
+      "ts": "20260717_000318",
+      "topic": "fenomena-pendar-luminesen-di-hutan-hujan",
+      "title": "Fenomena Cahaya Misterius di Hutan Hujan Amazon",
+      "path": "C:\\Users\\Administrator\\Desktop\\konten5\\output\\20260717_000318_fenomena-pendar-luminesen-di-hutan-hujan\\final.mp4",
+      "video_id": null,
+      "publish_at": null
+    },
+    {
+      "ts": "20260717_002308",
+      "topic": "fenomena-singkat-umur-bintang",
+      "title": "Bintang yang Hidup Cuma 10 Menit, Apa yang Terjadi?",
+      "path": "C:\\Users\\Administrator\\Desktop\\konten5\\output\\20260717_002308_fenomena-singkat-umur-bintang\\final.mp4",
+      "video_id": null,
+      "publish_at": null
     }
   ],
-  "_voice_idx": 16
+  "_voice_idx": 18
 }

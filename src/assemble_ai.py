@@ -44,6 +44,7 @@ def build(
     out_path: Path,
     work_dir: Path,
     hook_text: str = "",
+    has_hook: bool = False,
 ) -> Path:
     v = CONFIG["video"]
     w, h, fps = v["width"], v["height"], v["fps"]
@@ -57,6 +58,22 @@ def build(
         return f"z='if(eq(on,1),{zs},min({ze},zoom+{inc:.6f}))':d={n}:s={w}x{h}:fps={fps}"
 
     durations = _scene_durations(words, scenes)
+    
+    # Ensure hook stays on screen for at least 3 seconds
+    if has_hook and len(durations) > 1:
+        target_hook_dur = 3.0
+        if durations[0] < target_hook_dur:
+            deficit = target_hook_dur - durations[0]
+            durations[0] = target_hook_dur
+            for i in range(1, len(durations)):
+                if deficit <= 0:
+                    break
+                can_borrow = durations[i] - 1.0 # leave at least 1.0s for other scenes
+                if can_borrow > 0:
+                    borrow = min(deficit, can_borrow)
+                    durations[i] -= borrow
+                    deficit -= borrow
+                    
     audio_dur = probe_duration(voice_audio)
     total_video = sum(durations)
     if total_video < audio_dur:

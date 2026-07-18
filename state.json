@@ -28,7 +28,8 @@
     "fenomena-pohon-pemakan-daging",
     "fenomena-pengelupasan-buluh-bamboo",
     "fenomena-gelombang-cahaya-polar",
-    "fenomena-gravitasi-micro"
+    "fenomena-gravitasi-micro",
+    "fenomena-sonik-pada-serangga"
   ],
   "published": [
     {
@@ -274,7 +275,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260718_170924",
+      "topic": "fenomena-sonik-pada-serangga",
+      "title": "Serangga Pemancar Suara: Fenomena Sonik yang Mengagetkan",
+      "path": "/home/runner/work/konten5/konten5/output/20260718_170924_fenomena-sonik-pada-serangga/final.mp4",
+      "video_id": "SPndgoUGgcU",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 27
+  "_voice_idx": 28
 }

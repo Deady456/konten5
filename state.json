@@ -27,7 +27,8 @@
     "penemuan-organisme-penghasil-biofilm",
     "fenomena-pohon-pemakan-daging",
     "fenomena-pengelupasan-buluh-bamboo",
-    "fenomena-gelombang-cahaya-polar"
+    "fenomena-gelombang-cahaya-polar",
+    "fenomena-gravitasi-micro"
   ],
   "published": [
     {
@@ -263,7 +264,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260718_150242",
+      "topic": "fenomena-gravitasi-micro",
+      "title": "Mengungkap Rahasia Gravitasi Micro di Alam",
+      "path": "/home/runner/work/konten5/konten5/output/20260718_150242_fenomena-gravitasi-micro/final.mp4",
+      "video_id": "MQXYQwEgTM8",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 26
+  "_voice_idx": 27
 }

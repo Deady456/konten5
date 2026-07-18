@@ -29,7 +29,8 @@
     "fenomena-pengelupasan-buluh-bamboo",
     "fenomena-gelombang-cahaya-polar",
     "fenomena-gravitasi-micro",
-    "fenomena-sonik-pada-serangga"
+    "fenomena-sonik-pada-serangga",
+    "penemuan-spesies-tanaman-karnivora-baru"
   ],
   "published": [
     {
@@ -285,7 +286,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260718_230134",
+      "topic": "penemuan-spesies-tanaman-karnivora-baru",
+      "title": "Tanaman Pemakan Serangga Baru Ditemukan di Hutan Hujan Amazon",
+      "path": "/home/runner/work/konten5/konten5/output/20260718_230134_penemuan-spesies-tanaman-karnivora-baru/final.mp4",
+      "video_id": "zrZwqQXoFJ4",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 28
+  "_voice_idx": 29
 }

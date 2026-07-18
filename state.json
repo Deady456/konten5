@@ -26,7 +26,8 @@
     "fenomena-alam-gelombang-panas",
     "penemuan-organisme-penghasil-biofilm",
     "fenomena-pohon-pemakan-daging",
-    "fenomena-pengelupasan-buluh-bamboo"
+    "fenomena-pengelupasan-buluh-bamboo",
+    "fenomena-gelombang-cahaya-polar"
   ],
   "published": [
     {
@@ -252,7 +253,17 @@
       "path": "/home/runner/work/konten5/konten5/output/20260717_230241_fenomena-pengelupasan-buluh-bamboo/final.mp4",
       "video_id": "rqO6XztxgxE",
       "publish_at": null
+    },
+    {
+      "ts": "20260718_070325",
+      "topic": "fenomena-gelombang-cahaya-polar",
+      "title": "Fenomena Cahaya Utara di Kutub Selatan: Misteri Alam yang Belum Terpecahkan",
+      "path": "/home/runner/work/konten5/konten5/output/20260718_070325_fenomena-gelombang-cahaya-polar/final.mp4",
+      "video_id": "9nVUJB_nwto",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 25
+  "_voice_idx": 26
 }

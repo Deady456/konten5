@@ -32,7 +32,8 @@
     "fenomena-sonik-pada-serangga",
     "penemuan-spesies-tanaman-karnivora-baru",
     "misteri-pembentukan-struktur-bawah-laut",
-    "fenomena-osilasi-laut-dalam"
+    "fenomena-osilasi-laut-dalam",
+    "fenomena-pengaruh-magnetisme-pada-tumbuhan"
   ],
   "published": [
     {
@@ -316,7 +317,15 @@
       "path": "/home/runner/work/konten5/konten5/output/20260719_150332_fenomena-osilasi-laut-dalam/final.mp4",
       "video_id": "wT0SrZDmM2s",
       "publish_at": null
+    },
+    {
+      "ts": "20260719_230437",
+      "topic": "fenomena-pengaruh-magnetisme-pada-tumbuhan",
+      "title": "Tumbuhan Bisa Merasakan Medan Magnet?",
+      "path": "/home/runner/work/konten5/konten5/output/20260719_230437_fenomena-pengaruh-magnetisme-pada-tumbuhan/final.mp4",
+      "video_id": "EjLLxFKBEb8",
+      "publish_at": null
     }
   ],
-  "_voice_idx": 32
+  "_voice_idx": 34
 }

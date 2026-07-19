@@ -30,7 +30,8 @@
     "fenomena-gelombang-cahaya-polar",
     "fenomena-gravitasi-micro",
     "fenomena-sonik-pada-serangga",
-    "penemuan-spesies-tanaman-karnivora-baru"
+    "penemuan-spesies-tanaman-karnivora-baru",
+    "misteri-pembentukan-struktur-bawah-laut"
   ],
   "published": [
     {
@@ -296,7 +297,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260719_070131",
+      "topic": "misteri-pembentukan-struktur-bawah-laut",
+      "title": "Mengungkap Misteri Pembentukan Struktur Bawah Laut",
+      "path": "/home/runner/work/konten5/konten5/output/20260719_070131_misteri-pembentukan-struktur-bawah-laut/final.mp4",
+      "video_id": "SW7i-xKkX5M",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 29
+  "_voice_idx": 30
 }

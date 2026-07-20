@@ -34,7 +34,8 @@
     "misteri-pembentukan-struktur-bawah-laut",
     "fenomena-osilasi-laut-dalam",
     "fenomena-pengaruh-magnetisme-pada-tumbuhan",
-    "fenomena-penghuni-awal-samudera"
+    "fenomena-penghuni-awal-samudera",
+    "fenomena-penggunaan-ekolokasi-oleh-cetacea"
   ],
   "published": [
     {
@@ -334,7 +335,17 @@
       "path": "/home/runner/work/konten5/konten5/output/20260720_070528_fenomena-penghuni-awal-samudera/final.mp4",
       "video_id": "9myFtaKwGZc",
       "publish_at": null
+    },
+    {
+      "ts": "20260720_150259",
+      "topic": "fenomena-penggunaan-ekolokasi-oleh-cetacea",
+      "title": "Cetacea Menggunakan Ekolokasi Untuk Berkomunikasi",
+      "path": "/home/runner/work/konten5/konten5/output/20260720_150259_fenomena-penggunaan-ekolokasi-oleh-cetacea/final.mp4",
+      "video_id": "mKicahgP9X8",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 36
+  "_voice_idx": 37
 }

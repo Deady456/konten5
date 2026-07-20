@@ -35,7 +35,8 @@
     "fenomena-osilasi-laut-dalam",
     "fenomena-pengaruh-magnetisme-pada-tumbuhan",
     "fenomena-penghuni-awal-samudera",
-    "fenomena-penggunaan-ekolokasi-oleh-cetacea"
+    "fenomena-penggunaan-ekolokasi-oleh-cetacea",
+    "fenomena-sinkhole-berasap"
   ],
   "published": [
     {
@@ -345,7 +346,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260720_230337",
+      "topic": "fenomena-sinkhole-berasap",
+      "title": "Misteri Sinkhole Berasap di Padang Pasir",
+      "path": "/home/runner/work/konten5/konten5/output/20260720_230337_fenomena-sinkhole-berasap/final.mp4",
+      "video_id": "quoMU24QuV4",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 37
+  "_voice_idx": 38
 }

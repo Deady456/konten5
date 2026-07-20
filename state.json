@@ -33,7 +33,8 @@
     "penemuan-spesies-tanaman-karnivora-baru",
     "misteri-pembentukan-struktur-bawah-laut",
     "fenomena-osilasi-laut-dalam",
-    "fenomena-pengaruh-magnetisme-pada-tumbuhan"
+    "fenomena-pengaruh-magnetisme-pada-tumbuhan",
+    "fenomena-penghuni-awal-samudera"
   ],
   "published": [
     {
@@ -325,7 +326,15 @@
       "path": "/home/runner/work/konten5/konten5/output/20260719_230437_fenomena-pengaruh-magnetisme-pada-tumbuhan/final.mp4",
       "video_id": "EjLLxFKBEb8",
       "publish_at": null
+    },
+    {
+      "ts": "20260720_070528",
+      "topic": "fenomena-penghuni-awal-samudera",
+      "title": "Mengungkap Misteri Hidup Pertama di Bumi: Apa yang Membuatnya Bermunculan?",
+      "path": "/home/runner/work/konten5/konten5/output/20260720_070528_fenomena-penghuni-awal-samudera/final.mp4",
+      "video_id": "9myFtaKwGZc",
+      "publish_at": null
     }
   ],
-  "_voice_idx": 34
+  "_voice_idx": 36
 }

@@ -37,7 +37,8 @@
     "fenomena-penghuni-awal-samudera",
     "fenomena-penggunaan-ekolokasi-oleh-cetacea",
     "fenomena-sinkhole-berasap",
-    "fenomena-pesan-biologis-pada-kristal"
+    "fenomena-pesan-biologis-pada-kristal",
+    "fenomena-laut-dalam-penuh-luminesen"
   ],
   "published": [
     {
@@ -367,7 +368,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260721_150252",
+      "topic": "fenomena-laut-dalam-penuh-luminesen",
+      "title": "Laut Dalam Penuh Cahaya: Fenomena Alam Mengagumkan",
+      "path": "/home/runner/work/konten5/konten5/output/20260721_150252_fenomena-laut-dalam-penuh-luminesen/final.mp4",
+      "video_id": "RT9uYmGGO8Q",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 39
+  "_voice_idx": 40
 }

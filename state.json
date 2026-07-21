@@ -36,7 +36,8 @@
     "fenomena-pengaruh-magnetisme-pada-tumbuhan",
     "fenomena-penghuni-awal-samudera",
     "fenomena-penggunaan-ekolokasi-oleh-cetacea",
-    "fenomena-sinkhole-berasap"
+    "fenomena-sinkhole-berasap",
+    "fenomena-pesan-biologis-pada-kristal"
   ],
   "published": [
     {
@@ -356,7 +357,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260721_070135",
+      "topic": "fenomena-pesan-biologis-pada-kristal",
+      "title": "Mengungkap Pesan Tersembunyi di Dalam Kristal",
+      "path": "/home/runner/work/konten5/konten5/output/20260721_070135_fenomena-pesan-biologis-pada-kristal/final.mp4",
+      "video_id": "zoA8jS2Bl9g",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 38
+  "_voice_idx": 39
 }

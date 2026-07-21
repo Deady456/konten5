@@ -38,7 +38,8 @@
     "fenomena-penggunaan-ekolokasi-oleh-cetacea",
     "fenomena-sinkhole-berasap",
     "fenomena-pesan-biologis-pada-kristal",
-    "fenomena-laut-dalam-penuh-luminesen"
+    "fenomena-laut-dalam-penuh-luminesen",
+    "fenomena-pembentukan-gurun-pasir-bawah-laut"
   ],
   "published": [
     {
@@ -378,7 +379,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260721_230129",
+      "topic": "fenomena-pembentukan-gurun-pasir-bawah-laut",
+      "title": "Mengungkap Misteri Gurun Pasir Bawah Laut Yang Mengagitasi Ilmuwan",
+      "path": "/home/runner/work/konten5/konten5/output/20260721_230129_fenomena-pembentukan-gurun-pasir-bawah-laut/final.mp4",
+      "video_id": "9IQvSrI6IeY",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 40
+  "_voice_idx": 41
 }

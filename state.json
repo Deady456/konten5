@@ -40,7 +40,8 @@
     "fenomena-pesan-biologis-pada-kristal",
     "fenomena-laut-dalam-penuh-luminesen",
     "fenomena-pembentukan-gurun-pasir-bawah-laut",
-    "fenomena-aurora-di-planet-lain"
+    "fenomena-aurora-di-planet-lain",
+    "fenomena-pengaruh-solar-flare-pada-ikan-laut-dalam"
   ],
   "published": [
     {
@@ -400,7 +401,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260722_150239",
+      "topic": "fenomena-pengaruh-solar-flare-pada-ikan-laut-dalam",
+      "title": "Fenomena Mengagumkan: Bagaimana Solar Flare Mempengaruhi Ikan Laut Dalam?",
+      "path": "/home/runner/work/konten5/konten5/output/20260722_150239_fenomena-pengaruh-solar-flare-pada-ikan-laut-dalam/final.mp4",
+      "video_id": "IYKDlFfbi7Q",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 42
+  "_voice_idx": 43
 }

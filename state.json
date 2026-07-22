@@ -39,7 +39,8 @@
     "fenomena-sinkhole-berasap",
     "fenomena-pesan-biologis-pada-kristal",
     "fenomena-laut-dalam-penuh-luminesen",
-    "fenomena-pembentukan-gurun-pasir-bawah-laut"
+    "fenomena-pembentukan-gurun-pasir-bawah-laut",
+    "fenomena-aurora-di-planet-lain"
   ],
   "published": [
     {
@@ -389,7 +390,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260722_070438",
+      "topic": "fenomena-aurora-di-planet-lain",
+      "title": "Aurora di Luar Bumi: Fenomena Alam yang Mengejutkan",
+      "path": "/home/runner/work/konten5/konten5/output/20260722_070438_fenomena-aurora-di-planet-lain/final.mp4",
+      "video_id": "FoVGQUWdeIQ",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 41
+  "_voice_idx": 42
 }

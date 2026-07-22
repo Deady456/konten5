@@ -41,7 +41,8 @@
     "fenomena-laut-dalam-penuh-luminesen",
     "fenomena-pembentukan-gurun-pasir-bawah-laut",
     "fenomena-aurora-di-planet-lain",
-    "fenomena-pengaruh-solar-flare-pada-ikan-laut-dalam"
+    "fenomena-pengaruh-solar-flare-pada-ikan-laut-dalam",
+    "fenomena-penggunaan-bioluminesen-oleh-organisme-laut-dalam"
   ],
   "published": [
     {
@@ -411,7 +412,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260722_230411",
+      "topic": "fenomena-penggunaan-bioluminesen-oleh-organisme-laut-dalam",
+      "title": "Mengenal Organisme Laut Dalam yang Menghasilkan Cahaya Sendiri",
+      "path": "/home/runner/work/konten5/konten5/output/20260722_230411_fenomena-penggunaan-bioluminesen-oleh-organisme-laut-dalam/final.mp4",
+      "video_id": "_RYjFza5Ct0",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 43
+  "_voice_idx": 44
 }

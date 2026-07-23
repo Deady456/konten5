@@ -43,7 +43,8 @@
     "fenomena-aurora-di-planet-lain",
     "fenomena-pengaruh-solar-flare-pada-ikan-laut-dalam",
     "fenomena-penggunaan-bioluminesen-oleh-organisme-laut-dalam",
-    "fenomena-pembentukan-ice-disc"
+    "fenomena-pembentukan-ice-disc",
+    "fenomena-penghuni-gua-es"
   ],
   "published": [
     {
@@ -433,7 +434,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260723_150524",
+      "topic": "fenomena-penghuni-gua-es",
+      "title": "Mengungkap Rahasia Penghuni Gua Es yang Mengubah Teori Evolusi",
+      "path": "/home/runner/work/konten5/konten5/output/20260723_150524_fenomena-penghuni-gua-es/final.mp4",
+      "video_id": "sOsqP7L4Y9s",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 45
+  "_voice_idx": 46
 }

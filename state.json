@@ -44,7 +44,8 @@
     "fenomena-pengaruh-solar-flare-pada-ikan-laut-dalam",
     "fenomena-penggunaan-bioluminesen-oleh-organisme-laut-dalam",
     "fenomena-pembentukan-ice-disc",
-    "fenomena-penghuni-gua-es"
+    "fenomena-penghuni-gua-es",
+    "fenomena-penghuni-lava-laut"
   ],
   "published": [
     {
@@ -444,7 +445,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260723_230451",
+      "topic": "fenomena-penghuni-lava-laut",
+      "title": "Mengungkap Fenomena Hidup di Lava Laut: Organisme yang Menghindari Kematian",
+      "path": "/home/runner/work/konten5/konten5/output/20260723_230451_fenomena-penghuni-lava-laut/final.mp4",
+      "video_id": "JM2QfYVWglU",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 46
+  "_voice_idx": 47
 }

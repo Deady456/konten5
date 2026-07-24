@@ -47,7 +47,8 @@
     "fenomena-penghuni-gua-es",
     "fenomena-penghuni-lava-laut",
     "fenomena-penggunaan-komunikasi-elektromagnetik-oleh-hewan",
-    "fenomena-penggunaan-geolokasi-oleh-hewan-migrasi"
+    "fenomena-penggunaan-geolokasi-oleh-hewan-migrasi",
+    "fenomena-pengaruh-getaran-tanah-pada-serangga"
   ],
   "published": [
     {
@@ -477,7 +478,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260724_230347",
+      "topic": "fenomena-pengaruh-getaran-tanah-pada-serangga",
+      "title": "Mengungkap Rahasia Getaran Tanah yang Mengendalikan Serangga",
+      "path": "/home/runner/work/konten5/konten5/output/20260724_230347_fenomena-pengaruh-getaran-tanah-pada-serangga/final.mp4",
+      "video_id": "GtNJU9zNt2E",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 49
+  "_voice_idx": 50
 }

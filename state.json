@@ -46,7 +46,8 @@
     "fenomena-pembentukan-ice-disc",
     "fenomena-penghuni-gua-es",
     "fenomena-penghuni-lava-laut",
-    "fenomena-penggunaan-komunikasi-elektromagnetik-oleh-hewan"
+    "fenomena-penggunaan-komunikasi-elektromagnetik-oleh-hewan",
+    "fenomena-penggunaan-geolokasi-oleh-hewan-migrasi"
   ],
   "published": [
     {
@@ -466,7 +467,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260724_150153",
+      "topic": "fenomena-penggunaan-geolokasi-oleh-hewan-migrasi",
+      "title": "Bagaimana Hewan Migrasi Menggunakan Medan Magnet Bumi?",
+      "path": "/home/runner/work/konten5/konten5/output/20260724_150153_fenomena-penggunaan-geolokasi-oleh-hewan-migrasi/final.mp4",
+      "video_id": "nJoNGG8Zz_k",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 48
+  "_voice_idx": 49
 }

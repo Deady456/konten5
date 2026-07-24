@@ -45,7 +45,8 @@
     "fenomena-penggunaan-bioluminesen-oleh-organisme-laut-dalam",
     "fenomena-pembentukan-ice-disc",
     "fenomena-penghuni-gua-es",
-    "fenomena-penghuni-lava-laut"
+    "fenomena-penghuni-lava-laut",
+    "fenomena-penggunaan-komunikasi-elektromagnetik-oleh-hewan"
   ],
   "published": [
     {
@@ -455,7 +456,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260724_070130",
+      "topic": "fenomena-penggunaan-komunikasi-elektromagnetik-oleh-hewan",
+      "title": "Mengungkap Rahasia Komunikasi Hewan yang Menggunakan Gelombang Elektromagnetik",
+      "path": "/home/runner/work/konten5/konten5/output/20260724_070130_fenomena-penggunaan-komunikasi-elektromagnetik-oleh-hewan/final.mp4",
+      "video_id": "V2dytNslNr0",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 47
+  "_voice_idx": 48
 }

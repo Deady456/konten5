@@ -49,7 +49,8 @@
     "fenomena-penggunaan-komunikasi-elektromagnetik-oleh-hewan",
     "fenomena-penggunaan-geolokasi-oleh-hewan-migrasi",
     "fenomena-pengaruh-getaran-tanah-pada-serangga",
-    "fenomena-penghuni-danau-asam"
+    "fenomena-penghuni-danau-asam",
+    "fenomena-pulau-mengapung"
   ],
   "published": [
     {
@@ -499,7 +500,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260725_150128",
+      "topic": "fenomena-pulau-mengapung",
+      "title": "Mengungkap Rahasia Pulau Terapung yang Hilang di Lautan",
+      "path": "/home/runner/work/konten5/konten5/output/20260725_150128_fenomena-pulau-mengapung/final.mp4",
+      "video_id": "Glyf7zT4uFE",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 51
+  "_voice_idx": 52
 }

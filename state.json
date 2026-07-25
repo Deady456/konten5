@@ -48,7 +48,8 @@
     "fenomena-penghuni-lava-laut",
     "fenomena-penggunaan-komunikasi-elektromagnetik-oleh-hewan",
     "fenomena-penggunaan-geolokasi-oleh-hewan-migrasi",
-    "fenomena-pengaruh-getaran-tanah-pada-serangga"
+    "fenomena-pengaruh-getaran-tanah-pada-serangga",
+    "fenomena-penghuni-danau-asam"
   ],
   "published": [
     {
@@ -488,7 +489,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260725_070255",
+      "topic": "fenomena-penghuni-danau-asam",
+      "title": "Danau Asam yang Menghidupi Makhluk Aneh",
+      "path": "/home/runner/work/konten5/konten5/output/20260725_070255_fenomena-penghuni-danau-asam/final.mp4",
+      "video_id": "5nfWIau1Mzs",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 50
+  "_voice_idx": 51
 }

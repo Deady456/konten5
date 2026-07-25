@@ -50,7 +50,8 @@
     "fenomena-penggunaan-geolokasi-oleh-hewan-migrasi",
     "fenomena-pengaruh-getaran-tanah-pada-serangga",
     "fenomena-penghuni-danau-asam",
-    "fenomena-pulau-mengapung"
+    "fenomena-pulau-mengapung",
+    "fenomena-penggunaan-memori-alam-oleh-burung"
   ],
   "published": [
     {
@@ -510,7 +511,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260725_230343",
+      "topic": "fenomena-penggunaan-memori-alam-oleh-burung",
+      "title": "Bagaimana Burung Menggunakan Memori Alam untuk Navigasi?",
+      "path": "/home/runner/work/konten5/konten5/output/20260725_230343_fenomena-penggunaan-memori-alam-oleh-burung/final.mp4",
+      "video_id": "GJG7I9GucOg",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 52
+  "_voice_idx": 53
 }

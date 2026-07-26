@@ -52,7 +52,8 @@
     "fenomena-penghuni-danau-asam",
     "fenomena-pulau-mengapung",
     "fenomena-penggunaan-memori-alam-oleh-burung",
-    "fenomena-penghuni-lubang-hidrotermal"
+    "fenomena-penghuni-lubang-hidrotermal",
+    "fenomena-pengaruh-musik-pada-tanaman"
   ],
   "published": [
     {
@@ -532,7 +533,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260726_150134",
+      "topic": "fenomena-pengaruh-musik-pada-tanaman",
+      "title": "Apa yang Terjadi Ketika Tanaman Mendengar Musik?",
+      "path": "/home/runner/work/konten5/konten5/output/20260726_150134_fenomena-pengaruh-musik-pada-tanaman/final.mp4",
+      "video_id": "yXx4t1cZjQA",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 54
+  "_voice_idx": 55
 }

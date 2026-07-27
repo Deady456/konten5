@@ -56,7 +56,8 @@
     "fenomena-pengaruh-musik-pada-tanaman",
     "fenomena-penggunaan-kristal-oleh-organisme-laut",
     "fenomena-penghuni-gua-kristal-meksiko",
-    "fenomena-penggunaan-komunikasi-kimia-oleh-hewan-sosial"
+    "fenomena-penggunaan-komunikasi-kimia-oleh-hewan-sosial",
+    "fenomena-penggunaan-biofilm-oleh-mikroorganisme-laut"
   ],
   "published": [
     {
@@ -576,7 +577,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260727_230136",
+      "topic": "fenomena-penggunaan-biofilm-oleh-mikroorganisme-laut",
+      "title": "Misteri Biofilm Laut: Bagaimana Mikroorganisme Mengubah Ekosistem?",
+      "path": "/home/runner/work/konten5/konten5/output/20260727_230136_fenomena-penggunaan-biofilm-oleh-mikroorganisme-laut/final.mp4",
+      "video_id": "GBpYZ-IQSMQ",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 58
+  "_voice_idx": 59
 }

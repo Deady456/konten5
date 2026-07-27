@@ -55,7 +55,8 @@
     "fenomena-penghuni-lubang-hidrotermal",
     "fenomena-pengaruh-musik-pada-tanaman",
     "fenomena-penggunaan-kristal-oleh-organisme-laut",
-    "fenomena-penghuni-gua-kristal-meksiko"
+    "fenomena-penghuni-gua-kristal-meksiko",
+    "fenomena-penggunaan-komunikasi-kimia-oleh-hewan-sosial"
   ],
   "published": [
     {
@@ -565,7 +566,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260727_150219",
+      "topic": "fenomena-penggunaan-komunikasi-kimia-oleh-hewan-sosial",
+      "title": "Mengungkap Bahasa Kimia Hewan Sosial",
+      "path": "/home/runner/work/konten5/konten5/output/20260727_150219_fenomena-penggunaan-komunikasi-kimia-oleh-hewan-sosial/final.mp4",
+      "video_id": "14X39z11koQ",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 57
+  "_voice_idx": 58
 }

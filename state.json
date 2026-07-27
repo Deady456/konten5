@@ -54,7 +54,8 @@
     "fenomena-penggunaan-memori-alam-oleh-burung",
     "fenomena-penghuni-lubang-hidrotermal",
     "fenomena-pengaruh-musik-pada-tanaman",
-    "fenomena-penggunaan-kristal-oleh-organisme-laut"
+    "fenomena-penggunaan-kristal-oleh-organisme-laut",
+    "fenomena-penghuni-gua-kristal-meksiko"
   ],
   "published": [
     {
@@ -554,7 +555,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260727_070140",
+      "topic": "fenomena-penghuni-gua-kristal-meksiko",
+      "title": "Mengungkap Misteri Gua Kristal Meksiko yang Penuh Keajaiban",
+      "path": "/home/runner/work/konten5/konten5/output/20260727_070140_fenomena-penghuni-gua-kristal-meksiko/final.mp4",
+      "video_id": "CiXn7-kSDnE",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 56
+  "_voice_idx": 57
 }

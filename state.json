@@ -57,7 +57,8 @@
     "fenomena-penggunaan-kristal-oleh-organisme-laut",
     "fenomena-penghuni-gua-kristal-meksiko",
     "fenomena-penggunaan-komunikasi-kimia-oleh-hewan-sosial",
-    "fenomena-penggunaan-biofilm-oleh-mikroorganisme-laut"
+    "fenomena-penggunaan-biofilm-oleh-mikroorganisme-laut",
+    "fenomena-penggunaan-energi-gelombang-laut-oleh-ekosistem-koral"
   ],
   "published": [
     {
@@ -587,7 +588,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260728_070158",
+      "topic": "fenomena-penggunaan-energi-gelombang-laut-oleh-ekosistem-koral",
+      "title": "Rahasia Koral Yang Menggunakan Energi Gelombang Laut",
+      "path": "/home/runner/work/konten5/konten5/output/20260728_070158_fenomena-penggunaan-energi-gelombang-laut-oleh-ekosistem-kor/final.mp4",
+      "video_id": "_XD1gFwbAu4",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 59
+  "_voice_idx": 60
 }

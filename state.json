@@ -58,7 +58,8 @@
     "fenomena-penghuni-gua-kristal-meksiko",
     "fenomena-penggunaan-komunikasi-kimia-oleh-hewan-sosial",
     "fenomena-penggunaan-biofilm-oleh-mikroorganisme-laut",
-    "fenomena-penggunaan-energi-gelombang-laut-oleh-ekosistem-koral"
+    "fenomena-penggunaan-energi-gelombang-laut-oleh-ekosistem-koral",
+    "fenomena-pengaruh-cuaca-ekstrem-pada-hibernasi-hewan"
   ],
   "published": [
     {
@@ -598,7 +599,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260728_150231",
+      "topic": "fenomena-pengaruh-cuaca-ekstrem-pada-hibernasi-hewan",
+      "title": "Hibernasi Ekstrem: Bagaimana Hewan Bertahan dari Cuaca Ekstrem?",
+      "path": "/home/runner/work/konten5/konten5/output/20260728_150231_fenomena-pengaruh-cuaca-ekstrem-pada-hibernasi-hewan/final.mp4",
+      "video_id": "jERhS06l1Vg",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 60
+  "_voice_idx": 61
 }

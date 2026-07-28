@@ -59,7 +59,8 @@
     "fenomena-penggunaan-komunikasi-kimia-oleh-hewan-sosial",
     "fenomena-penggunaan-biofilm-oleh-mikroorganisme-laut",
     "fenomena-penggunaan-energi-gelombang-laut-oleh-ekosistem-koral",
-    "fenomena-pengaruh-cuaca-ekstrem-pada-hibernasi-hewan"
+    "fenomena-pengaruh-cuaca-ekstrem-pada-hibernasi-hewan",
+    "fenomena-penggunaan-ekonomi-energi-oleh-paus"
   ],
   "published": [
     {
@@ -609,7 +610,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260728_230428",
+      "topic": "fenomena-penggunaan-ekonomi-energi-oleh-paus",
+      "title": "Paus Hemat Energi dengan Teknik Unik, Bagaimana Caranya?",
+      "path": "/home/runner/work/konten5/konten5/output/20260728_230428_fenomena-penggunaan-ekonomi-energi-oleh-paus/final.mp4",
+      "video_id": "9zeU7DUmyDE",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 61
+  "_voice_idx": 62
 }

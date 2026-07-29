@@ -62,7 +62,8 @@
     "fenomena-pengaruh-cuaca-ekstrem-pada-hibernasi-hewan",
     "fenomena-penggunaan-ekonomi-energi-oleh-paus",
     "fenomena-sinkronisasi-denitrifikasi",
-    "fenomena-pembentukan-kristal-garam-dalam-lubang-es"
+    "fenomena-pembentukan-kristal-garam-dalam-lubang-es",
+    "fenomena-penggunaan-mikroplastik-oleh-organisme-laut-dalam"
   ],
   "published": [
     {
@@ -642,7 +643,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260729_230447",
+      "topic": "fenomena-penggunaan-mikroplastik-oleh-organisme-laut-dalam",
+      "title": "Hewan Laut Dalam Menggunakan Mikroplastik Sebagai Cangkang?",
+      "path": "/home/runner/work/konten5/konten5/output/20260729_230447_fenomena-penggunaan-mikroplastik-oleh-organisme-laut-dalam/final.mp4",
+      "video_id": "vAMwYklQR6o",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 64
+  "_voice_idx": 65
 }

@@ -60,7 +60,8 @@
     "fenomena-penggunaan-biofilm-oleh-mikroorganisme-laut",
     "fenomena-penggunaan-energi-gelombang-laut-oleh-ekosistem-koral",
     "fenomena-pengaruh-cuaca-ekstrem-pada-hibernasi-hewan",
-    "fenomena-penggunaan-ekonomi-energi-oleh-paus"
+    "fenomena-penggunaan-ekonomi-energi-oleh-paus",
+    "fenomena-sinkronisasi-denitrifikasi"
   ],
   "published": [
     {
@@ -620,7 +621,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260729_070212",
+      "topic": "fenomena-sinkronisasi-denitrifikasi",
+      "title": "Mengenal Denitrifikasi Sinkron: Proses Alam yang Mengubah Nitrogen Udara",
+      "path": "/home/runner/work/konten5/konten5/output/20260729_070212_fenomena-sinkronisasi-denitrifikasi/final.mp4",
+      "video_id": "5O02ddU_aow",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 62
+  "_voice_idx": 63
 }

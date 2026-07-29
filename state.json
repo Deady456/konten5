@@ -61,7 +61,8 @@
     "fenomena-penggunaan-energi-gelombang-laut-oleh-ekosistem-koral",
     "fenomena-pengaruh-cuaca-ekstrem-pada-hibernasi-hewan",
     "fenomena-penggunaan-ekonomi-energi-oleh-paus",
-    "fenomena-sinkronisasi-denitrifikasi"
+    "fenomena-sinkronisasi-denitrifikasi",
+    "fenomena-pembentukan-kristal-garam-dalam-lubang-es"
   ],
   "published": [
     {
@@ -631,7 +632,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260729_150541",
+      "topic": "fenomena-pembentukan-kristal-garam-dalam-lubang-es",
+      "title": "Mengungkap Rahasia Kristal Garam di Dalam Lubang Es",
+      "path": "/home/runner/work/konten5/konten5/output/20260729_150541_fenomena-pembentukan-kristal-garam-dalam-lubang-es/final.mp4",
+      "video_id": "c1JNX3QJLJM",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 63
+  "_voice_idx": 64
 }

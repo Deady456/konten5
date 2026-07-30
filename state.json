@@ -64,7 +64,8 @@
     "fenomena-sinkronisasi-denitrifikasi",
     "fenomena-pembentukan-kristal-garam-dalam-lubang-es",
     "fenomena-penggunaan-mikroplastik-oleh-organisme-laut-dalam",
-    "fenomena-penggunaan-ganggang-sebagai-bahan-bakar-oleh-ekosistem-laut"
+    "fenomena-penggunaan-ganggang-sebagai-bahan-bakar-oleh-ekosistem-laut",
+    "fenomena-penggunaan-hidroakustik-oleh-penyu"
   ],
   "published": [
     {
@@ -664,7 +665,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260730_150306",
+      "topic": "fenomena-penggunaan-hidroakustik-oleh-penyu",
+      "title": "Penyu Menggunakan Suara Bawah Laut Untuk Navigasi",
+      "path": "/home/runner/work/konten5/konten5/output/20260730_150306_fenomena-penggunaan-hidroakustik-oleh-penyu/final.mp4",
+      "video_id": "f1XVelmiJqI",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 66
+  "_voice_idx": 67
 }

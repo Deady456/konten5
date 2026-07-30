@@ -65,7 +65,8 @@
     "fenomena-pembentukan-kristal-garam-dalam-lubang-es",
     "fenomena-penggunaan-mikroplastik-oleh-organisme-laut-dalam",
     "fenomena-penggunaan-ganggang-sebagai-bahan-bakar-oleh-ekosistem-laut",
-    "fenomena-penggunaan-hidroakustik-oleh-penyu"
+    "fenomena-penggunaan-hidroakustik-oleh-penyu",
+    "fenomena-penggunaan-komunikasi-seismik-oleh-gajah"
   ],
   "published": [
     {
@@ -675,7 +676,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260730_230250",
+      "topic": "fenomena-penggunaan-komunikasi-seismik-oleh-gajah",
+      "title": "Gajah Bisa Merasakan Getaran Bumi, Bagaimana Mereka Menggunakan Kemampuan Ini?",
+      "path": "/home/runner/work/konten5/konten5/output/20260730_230250_fenomena-penggunaan-komunikasi-seismik-oleh-gajah/final.mp4",
+      "video_id": "evHIPmvaFdg",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 67
+  "_voice_idx": 68
 }

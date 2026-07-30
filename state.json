@@ -63,7 +63,8 @@
     "fenomena-penggunaan-ekonomi-energi-oleh-paus",
     "fenomena-sinkronisasi-denitrifikasi",
     "fenomena-pembentukan-kristal-garam-dalam-lubang-es",
-    "fenomena-penggunaan-mikroplastik-oleh-organisme-laut-dalam"
+    "fenomena-penggunaan-mikroplastik-oleh-organisme-laut-dalam",
+    "fenomena-penggunaan-ganggang-sebagai-bahan-bakar-oleh-ekosistem-laut"
   ],
   "published": [
     {
@@ -653,7 +654,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260730_070132",
+      "topic": "fenomena-penggunaan-ganggang-sebagai-bahan-bakar-oleh-ekosistem-laut",
+      "title": "Ganggang Laut: Sumber Energi Baru di Dasar Laut?",
+      "path": "/home/runner/work/konten5/konten5/output/20260730_070132_fenomena-penggunaan-ganggang-sebagai-bahan-bakar-oleh-ekosis/final.mp4",
+      "video_id": "TujKJQfuKE0",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 65
+  "_voice_idx": 66
 }

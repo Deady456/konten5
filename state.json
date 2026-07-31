@@ -68,7 +68,8 @@
     "fenomena-penggunaan-hidroakustik-oleh-penyu",
     "fenomena-penggunaan-komunikasi-seismik-oleh-gajah",
     "fenomena-penggunaan-geofagia-oleh-hewan",
-    "fenomena-penggunaan-kriptobiosis-oleh-tardigrada"
+    "fenomena-penggunaan-kriptobiosis-oleh-tardigrada",
+    "fenomena-penggunaan-sonar-oleh-kelinci-laut"
   ],
   "published": [
     {
@@ -708,7 +709,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260731_230326",
+      "topic": "fenomena-penggunaan-sonar-oleh-kelinci-laut",
+      "title": "Mengungkap Rahasia Kelinci Laut yang Menggunakan Sonar",
+      "path": "/home/runner/work/konten5/konten5/output/20260731_230326_fenomena-penggunaan-sonar-oleh-kelinci-laut/final.mp4",
+      "video_id": "6F47fKhuglc",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 70
+  "_voice_idx": 71
 }

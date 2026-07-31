@@ -66,7 +66,8 @@
     "fenomena-penggunaan-mikroplastik-oleh-organisme-laut-dalam",
     "fenomena-penggunaan-ganggang-sebagai-bahan-bakar-oleh-ekosistem-laut",
     "fenomena-penggunaan-hidroakustik-oleh-penyu",
-    "fenomena-penggunaan-komunikasi-seismik-oleh-gajah"
+    "fenomena-penggunaan-komunikasi-seismik-oleh-gajah",
+    "fenomena-penggunaan-geofagia-oleh-hewan"
   ],
   "published": [
     {
@@ -686,7 +687,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260731_070129",
+      "topic": "fenomena-penggunaan-geofagia-oleh-hewan",
+      "title": "Hewan Unik yang Makan Tanah, Mengapa?",
+      "path": "/home/runner/work/konten5/konten5/output/20260731_070129_fenomena-penggunaan-geofagia-oleh-hewan/final.mp4",
+      "video_id": "BO8fpVUBaQ8",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 68
+  "_voice_idx": 69
 }

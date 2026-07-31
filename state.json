@@ -67,7 +67,8 @@
     "fenomena-penggunaan-ganggang-sebagai-bahan-bakar-oleh-ekosistem-laut",
     "fenomena-penggunaan-hidroakustik-oleh-penyu",
     "fenomena-penggunaan-komunikasi-seismik-oleh-gajah",
-    "fenomena-penggunaan-geofagia-oleh-hewan"
+    "fenomena-penggunaan-geofagia-oleh-hewan",
+    "fenomena-penggunaan-kriptobiosis-oleh-tardigrada"
   ],
   "published": [
     {
@@ -697,7 +698,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260731_150219",
+      "topic": "fenomena-penggunaan-kriptobiosis-oleh-tardigrada",
+      "title": "Tardigrada: Makhluk Tak Terbunuh yang Menggunakan Kriptobiosis",
+      "path": "/home/runner/work/konten5/konten5/output/20260731_150219_fenomena-penggunaan-kriptobiosis-oleh-tardigrada/final.mp4",
+      "video_id": "iEW1ot_biug",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 69
+  "_voice_idx": 70
 }

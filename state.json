@@ -70,7 +70,8 @@
     "fenomena-penggunaan-geofagia-oleh-hewan",
     "fenomena-penggunaan-kriptobiosis-oleh-tardigrada",
     "fenomena-penggunaan-sonar-oleh-kelinci-laut",
-    "fenomena-migrasi-ikan-paus-ke-dalam-laut-dalam"
+    "fenomena-migrasi-ikan-paus-ke-dalam-laut-dalam",
+    "fenomena-penggunaan-elektrosensasi-oleh-belut-listrik"
   ],
   "published": [
     {
@@ -730,7 +731,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260801_150206",
+      "topic": "fenomena-penggunaan-elektrosensasi-oleh-belut-listrik",
+      "title": "Belut Listrik Menggunakan Elektrosensasi Untuk Berburu Mangsa",
+      "path": "/home/runner/work/konten5/konten5/output/20260801_150206_fenomena-penggunaan-elektrosensasi-oleh-belut-listrik/final.mp4",
+      "video_id": "fVMtowgRwXk",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 72
+  "_voice_idx": 73
 }

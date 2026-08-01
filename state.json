@@ -71,7 +71,8 @@
     "fenomena-penggunaan-kriptobiosis-oleh-tardigrada",
     "fenomena-penggunaan-sonar-oleh-kelinci-laut",
     "fenomena-migrasi-ikan-paus-ke-dalam-laut-dalam",
-    "fenomena-penggunaan-elektrosensasi-oleh-belut-listrik"
+    "fenomena-penggunaan-elektrosensasi-oleh-belut-listrik",
+    "fenomena-penggunaan-morfogenesis-oleh-cacing-tanah"
   ],
   "published": [
     {
@@ -741,7 +742,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260801_230312",
+      "topic": "fenomena-penggunaan-morfogenesis-oleh-cacing-tanah",
+      "title": "Cacing Tanah Mengubah Bentuknya, Mengapa?",
+      "path": "/home/runner/work/konten5/konten5/output/20260801_230312_fenomena-penggunaan-morfogenesis-oleh-cacing-tanah/final.mp4",
+      "video_id": "4q1ngyTilHQ",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 73
+  "_voice_idx": 74
 }

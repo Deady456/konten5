@@ -69,7 +69,8 @@
     "fenomena-penggunaan-komunikasi-seismik-oleh-gajah",
     "fenomena-penggunaan-geofagia-oleh-hewan",
     "fenomena-penggunaan-kriptobiosis-oleh-tardigrada",
-    "fenomena-penggunaan-sonar-oleh-kelinci-laut"
+    "fenomena-penggunaan-sonar-oleh-kelinci-laut",
+    "fenomena-migrasi-ikan-paus-ke-dalam-laut-dalam"
   ],
   "published": [
     {
@@ -719,7 +720,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260801_070424",
+      "topic": "fenomena-migrasi-ikan-paus-ke-dalam-laut-dalam",
+      "title": "Mengapa Ikan Paus Bisa Migrasi ke Laut Dalam?",
+      "path": "/home/runner/work/konten5/konten5/output/20260801_070424_fenomena-migrasi-ikan-paus-ke-dalam-laut-dalam/final.mp4",
+      "video_id": "40IlgnbRsZE",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 71
+  "_voice_idx": 72
 }

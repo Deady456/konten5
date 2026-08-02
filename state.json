@@ -73,7 +73,8 @@
     "fenomena-migrasi-ikan-paus-ke-dalam-laut-dalam",
     "fenomena-penggunaan-elektrosensasi-oleh-belut-listrik",
     "fenomena-penggunaan-morfogenesis-oleh-cacing-tanah",
-    "fenomena-penggunaan-bakteri-penghasil-lahan-basah-oleh-tanaman-mangrove"
+    "fenomena-penggunaan-bakteri-penghasil-lahan-basah-oleh-tanaman-mangrove",
+    "fenomena-penggunaan-biofluoresensi-oleh-ikan-karang"
   ],
   "published": [
     {
@@ -763,7 +764,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260802_150312",
+      "topic": "fenomena-penggunaan-biofluoresensi-oleh-ikan-karang",
+      "title": "Ikan Karang yang Mengeluarkan Cahaya Sendiri",
+      "path": "/home/runner/work/konten5/konten5/output/20260802_150312_fenomena-penggunaan-biofluoresensi-oleh-ikan-karang/final.mp4",
+      "video_id": "_8Kt8MQSROA",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 75
+  "_voice_idx": 76
 }

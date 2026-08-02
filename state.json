@@ -72,7 +72,8 @@
     "fenomena-penggunaan-sonar-oleh-kelinci-laut",
     "fenomena-migrasi-ikan-paus-ke-dalam-laut-dalam",
     "fenomena-penggunaan-elektrosensasi-oleh-belut-listrik",
-    "fenomena-penggunaan-morfogenesis-oleh-cacing-tanah"
+    "fenomena-penggunaan-morfogenesis-oleh-cacing-tanah",
+    "fenomena-penggunaan-bakteri-penghasil-lahan-basah-oleh-tanaman-mangrove"
   ],
   "published": [
     {
@@ -752,7 +753,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260802_070355",
+      "topic": "fenomena-penggunaan-bakteri-penghasil-lahan-basah-oleh-tanaman-mangrove",
+      "title": "Mangrove Menggunakan Bakteri Penghasil Lahan Basah",
+      "path": "/home/runner/work/konten5/konten5/output/20260802_070355_fenomena-penggunaan-bakteri-penghasil-lahan-basah-oleh-tanam/final.mp4",
+      "video_id": "QDznnui-D70",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 74
+  "_voice_idx": 75
 }

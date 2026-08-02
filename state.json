@@ -74,7 +74,8 @@
     "fenomena-penggunaan-elektrosensasi-oleh-belut-listrik",
     "fenomena-penggunaan-morfogenesis-oleh-cacing-tanah",
     "fenomena-penggunaan-bakteri-penghasil-lahan-basah-oleh-tanaman-mangrove",
-    "fenomena-penggunaan-biofluoresensi-oleh-ikan-karang"
+    "fenomena-penggunaan-biofluoresensi-oleh-ikan-karang",
+    "fenomena-penghuni-gua-es-abu"
   ],
   "published": [
     {
@@ -774,7 +775,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260802_230145",
+      "topic": "fenomena-penghuni-gua-es-abu",
+      "title": "Mengungkap Rahasia Hidup di Gua Es Abu",
+      "path": "/home/runner/work/konten5/konten5/output/20260802_230145_fenomena-penghuni-gua-es-abu/final.mp4",
+      "video_id": "SAZ3_Ti56O4",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 76
+  "_voice_idx": 77
 }

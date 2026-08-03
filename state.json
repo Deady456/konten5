@@ -75,7 +75,8 @@
     "fenomena-penggunaan-morfogenesis-oleh-cacing-tanah",
     "fenomena-penggunaan-bakteri-penghasil-lahan-basah-oleh-tanaman-mangrove",
     "fenomena-penggunaan-biofluoresensi-oleh-ikan-karang",
-    "fenomena-penghuni-gua-es-abu"
+    "fenomena-penghuni-gua-es-abu",
+    "fenomena-penggunaan-pertumbuhan-simbiotik-oleh-jamur-penghuni-tanah"
   ],
   "published": [
     {
@@ -785,7 +786,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260803_070424",
+      "topic": "fenomena-penggunaan-pertumbuhan-simbiotik-oleh-jamur-penghuni-tanah",
+      "title": "Simbiosis Misterius: Bagaimana Jamur Mengubah Ekosistem Tanah",
+      "path": "/home/runner/work/konten5/konten5/output/20260803_070424_fenomena-penggunaan-pertumbuhan-simbiotik-oleh-jamur-penghun/final.mp4",
+      "video_id": "S-vA0nyrnGk",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 77
+  "_voice_idx": 78
 }

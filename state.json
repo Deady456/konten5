@@ -76,7 +76,8 @@
     "fenomena-penggunaan-bakteri-penghasil-lahan-basah-oleh-tanaman-mangrove",
     "fenomena-penggunaan-biofluoresensi-oleh-ikan-karang",
     "fenomena-penghuni-gua-es-abu",
-    "fenomena-penggunaan-pertumbuhan-simbiotik-oleh-jamur-penghuni-tanah"
+    "fenomena-penggunaan-pertumbuhan-simbiotik-oleh-jamur-penghuni-tanah",
+    "fenomena-penggunaan-polarisasi-cahaya-oleh-lebah"
   ],
   "published": [
     {
@@ -796,7 +797,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260804_045157",
+      "topic": "fenomena-penggunaan-polarisasi-cahaya-oleh-lebah",
+      "title": "Lebah Bisa Lihat Polarisasi Cahaya, Bagaimana Mereka Menggunakannya?",
+      "path": "/home/runner/work/konten5/konten5/output/20260804_045157_fenomena-penggunaan-polarisasi-cahaya-oleh-lebah/final.mp4",
+      "video_id": "FRzWQUeuqIk",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 78
+  "_voice_idx": 79
 }

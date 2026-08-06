@@ -77,7 +77,8 @@
     "fenomena-penggunaan-biofluoresensi-oleh-ikan-karang",
     "fenomena-penghuni-gua-es-abu",
     "fenomena-penggunaan-pertumbuhan-simbiotik-oleh-jamur-penghuni-tanah",
-    "fenomena-penggunaan-polarisasi-cahaya-oleh-lebah"
+    "fenomena-penggunaan-polarisasi-cahaya-oleh-lebah",
+    "fenomena-penggunaan-bakteri-penghasil-asetat-oleh-rayap"
   ],
   "published": [
     {
@@ -807,7 +808,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260806_123454",
+      "topic": "fenomena-penggunaan-bakteri-penghasil-asetat-oleh-rayap",
+      "title": "Mengungkap Rahasia Rayap yang Menggunakan Bakteri Penghasil Asetat",
+      "path": "/home/runner/work/konten5/konten5/output/20260806_123454_fenomena-penggunaan-bakteri-penghasil-asetat-oleh-rayap/final.mp4",
+      "video_id": "xHH0jLLxAYg",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 79
+  "_voice_idx": 80
 }

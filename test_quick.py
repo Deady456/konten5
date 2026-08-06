@@ -39,7 +39,7 @@ def run():
     log(f"    voice: {voice_mp3.stat().st_size/1024:.0f} KB")
 
     log("3/5 Transcribing (Whisper)...")
-    words = captions.transcribe_words(voice_mp3, original_text=data["full_text"])
+    words = captions.transcribe_words(voice_mp3)
     log(f"    {len(words)} words transcribed")
 
     hook_text = data.get("thumbnail_text", "")

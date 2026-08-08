@@ -79,7 +79,8 @@
     "fenomena-penggunaan-pertumbuhan-simbiotik-oleh-jamur-penghuni-tanah",
     "fenomena-penggunaan-polarisasi-cahaya-oleh-lebah",
     "fenomena-penggunaan-bakteri-penghasil-asetat-oleh-rayap",
-    "fenomena-penggunaan-geomagnetisme-oleh-tortoise"
+    "fenomena-penggunaan-geomagnetisme-oleh-tortoise",
+    "fenomena-kelahiran-hidrotermal-dan-keterkaitannya-dengan-asal-kehidupan"
   ],
   "published": [
     {
@@ -829,7 +830,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260808_095517",
+      "topic": "fenomena-kelahiran-hidrotermal-dan-keterkaitannya-dengan-asal-kehidupan",
+      "title": "Misteri Kelahiran Hidrotermal: Rahasia Asal Kehidupan di Bumi",
+      "path": "/home/runner/work/konten5/konten5/output/20260808_095517_fenomena-kelahiran-hidrotermal-dan-keterkaitannya-dengan-asa/final.mp4",
+      "video_id": "ZY8YwMDK_5U",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 81
+  "_voice_idx": 82
 }

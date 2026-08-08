@@ -78,7 +78,8 @@
     "fenomena-penghuni-gua-es-abu",
     "fenomena-penggunaan-pertumbuhan-simbiotik-oleh-jamur-penghuni-tanah",
     "fenomena-penggunaan-polarisasi-cahaya-oleh-lebah",
-    "fenomena-penggunaan-bakteri-penghasil-asetat-oleh-rayap"
+    "fenomena-penggunaan-bakteri-penghasil-asetat-oleh-rayap",
+    "fenomena-penggunaan-geomagnetisme-oleh-tortoise"
   ],
   "published": [
     {
@@ -818,7 +819,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260808_094604",
+      "topic": "fenomena-penggunaan-geomagnetisme-oleh-tortoise",
+      "title": "Tortoise yang Menggunakan Medan Magnet Bumi untuk Navigasi",
+      "path": "/home/runner/work/konten5/konten5/output/20260808_094604_fenomena-penggunaan-geomagnetisme-oleh-tortoise/final.mp4",
+      "video_id": "kSvzd11fovg",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 80
+  "_voice_idx": 81
 }

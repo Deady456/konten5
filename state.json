@@ -81,7 +81,8 @@
     "fenomena-penggunaan-bakteri-penghasil-asetat-oleh-rayap",
     "fenomena-penggunaan-geomagnetisme-oleh-tortoise",
     "fenomena-kelahiran-hidrotermal-dan-keterkaitannya-dengan-asal-kehidupan",
-    "fenomena-penggunaan-foto-sintesis-kimia-oleh-bakteri"
+    "fenomena-penggunaan-foto-sintesis-kimia-oleh-bakteri",
+    "fenomena-penggunaan-kelompok-sosial-oleh-burung-pelatuk"
   ],
   "published": [
     {
@@ -851,7 +852,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260809_123125",
+      "topic": "fenomena-penggunaan-kelompok-sosial-oleh-burung-pelatuk",
+      "title": "Bahasa Rahasia Burung Pelatuk: Mengungkap Kunci Kelompok Sosial Unik",
+      "path": "/home/runner/work/konten5/konten5/output/20260809_123125_fenomena-penggunaan-kelompok-sosial-oleh-burung-pelatuk/final.mp4",
+      "video_id": "3PcWH-Qqpzw",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 83
+  "_voice_idx": 84
 }

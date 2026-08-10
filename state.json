@@ -82,7 +82,8 @@
     "fenomena-penggunaan-geomagnetisme-oleh-tortoise",
     "fenomena-kelahiran-hidrotermal-dan-keterkaitannya-dengan-asal-kehidupan",
     "fenomena-penggunaan-foto-sintesis-kimia-oleh-bakteri",
-    "fenomena-penggunaan-kelompok-sosial-oleh-burung-pelatuk"
+    "fenomena-penggunaan-kelompok-sosial-oleh-burung-pelatuk",
+    "fenomena-penggunaan-getaran-tanah-oleh-rayap"
   ],
   "published": [
     {
@@ -862,7 +863,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260810_031642",
+      "topic": "fenomena-penggunaan-getaran-tanah-oleh-rayap",
+      "title": "Rayap Menggunakan Getaran Tanah Untuk Komunikasi",
+      "path": "/home/runner/work/konten5/konten5/output/20260810_031642_fenomena-penggunaan-getaran-tanah-oleh-rayap/final.mp4",
+      "video_id": "adkQZ_6dFR0",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 84
+  "_voice_idx": 85
 }

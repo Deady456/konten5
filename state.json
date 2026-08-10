@@ -83,7 +83,8 @@
     "fenomena-kelahiran-hidrotermal-dan-keterkaitannya-dengan-asal-kehidupan",
     "fenomena-penggunaan-foto-sintesis-kimia-oleh-bakteri",
     "fenomena-penggunaan-kelompok-sosial-oleh-burung-pelatuk",
-    "fenomena-penggunaan-getaran-tanah-oleh-rayap"
+    "fenomena-penggunaan-getaran-tanah-oleh-rayap",
+    "fenomena-penggunaan-ekolokasi-oleh-kelelawar"
   ],
   "published": [
     {
@@ -873,7 +874,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260810_223418",
+      "topic": "fenomena-penggunaan-ekolokasi-oleh-kelelawar",
+      "title": "Mengungkap Rahasia Ekolokasi Kelelawar: Bagaimana Mereka Melihat Dunia?",
+      "path": "/home/runner/work/konten5/konten5/output/20260810_223418_fenomena-penggunaan-ekolokasi-oleh-kelelawar/final.mp4",
+      "video_id": "NqKqyYXUZXo",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 85
+  "_voice_idx": 86
 }

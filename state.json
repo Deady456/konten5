@@ -84,7 +84,8 @@
     "fenomena-penggunaan-foto-sintesis-kimia-oleh-bakteri",
     "fenomena-penggunaan-kelompok-sosial-oleh-burung-pelatuk",
     "fenomena-penggunaan-getaran-tanah-oleh-rayap",
-    "fenomena-penggunaan-ekolokasi-oleh-kelelawar"
+    "fenomena-penggunaan-ekolokasi-oleh-kelelawar",
+    "fenomena-penggunaan-pigmen-bakteri-oleh-terumbu-karang"
   ],
   "published": [
     {
@@ -884,7 +885,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260811_070557",
+      "topic": "fenomena-penggunaan-pigmen-bakteri-oleh-terumbu-karang",
+      "title": "Terungkap! Rahasia Warna Terumbu Karang yang Mengagumkan",
+      "path": "/home/runner/work/konten5/konten5/output/20260811_070557_fenomena-penggunaan-pigmen-bakteri-oleh-terumbu-karang/final.mp4",
+      "video_id": "GGkefM0-JFY",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 86
+  "_voice_idx": 87
 }

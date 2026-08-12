@@ -85,7 +85,8 @@
     "fenomena-penggunaan-kelompok-sosial-oleh-burung-pelatuk",
     "fenomena-penggunaan-getaran-tanah-oleh-rayap",
     "fenomena-penggunaan-ekolokasi-oleh-kelelawar",
-    "fenomena-penggunaan-pigmen-bakteri-oleh-terumbu-karang"
+    "fenomena-penggunaan-pigmen-bakteri-oleh-terumbu-karang",
+    "fenomena-penggunaan-kristal-kuarsa-oleh-tanaman"
   ],
   "published": [
     {
@@ -895,7 +896,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260812_120401",
+      "topic": "fenomena-penggunaan-kristal-kuarsa-oleh-tanaman",
+      "title": "Tanaman Ini Menggunakan Kristal Kuarsa untuk Menghasilkan Listrik",
+      "path": "/home/runner/work/konten5/konten5/output/20260812_120401_fenomena-penggunaan-kristal-kuarsa-oleh-tanaman/final.mp4",
+      "video_id": "LCjjZt4QWaY",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 87
+  "_voice_idx": 88
 }

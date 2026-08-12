@@ -86,7 +86,8 @@
     "fenomena-penggunaan-getaran-tanah-oleh-rayap",
     "fenomena-penggunaan-ekolokasi-oleh-kelelawar",
     "fenomena-penggunaan-pigmen-bakteri-oleh-terumbu-karang",
-    "fenomena-penggunaan-kristal-kuarsa-oleh-tanaman"
+    "fenomena-penggunaan-kristal-kuarsa-oleh-tanaman",
+    "fenomena-penggunaan-bio-iluminasi-oleh-cacing-laut"
   ],
   "published": [
     {
@@ -906,7 +907,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260812_162124",
+      "topic": "fenomena-penggunaan-bio-iluminasi-oleh-cacing-laut",
+      "title": "Cacing Laut Bermalam Bersinar: Rahasia Bio Iluminasi",
+      "path": "/home/runner/work/konten5/konten5/output/20260812_162124_fenomena-penggunaan-bio-iluminasi-oleh-cacing-laut/final.mp4",
+      "video_id": "d60_7w-bKYI",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 88
+  "_voice_idx": 89
 }

@@ -88,7 +88,8 @@
     "fenomena-penggunaan-pigmen-bakteri-oleh-terumbu-karang",
     "fenomena-penggunaan-kristal-kuarsa-oleh-tanaman",
     "fenomena-penggunaan-bio-iluminasi-oleh-cacing-laut",
-    "fenomena-penggunaan-bakteri-penghasil-bioemas-oleh-pohon-akasia"
+    "fenomena-penggunaan-bakteri-penghasil-bioemas-oleh-pohon-akasia",
+    "fenomena-penggunaan-kristal-biologis-oleh-hewan-laut-dalam"
   ],
   "published": [
     {
@@ -928,7 +929,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260813_120214",
+      "topic": "fenomena-penggunaan-kristal-biologis-oleh-hewan-laut-dalam",
+      "title": "Rahasia Hewan Laut Dalam: Menggunakan Kristal Biologis!",
+      "path": "/home/runner/work/konten5/konten5/output/20260813_120214_fenomena-penggunaan-kristal-biologis-oleh-hewan-laut-dalam/final.mp4",
+      "video_id": "8pV1EFvTzrY",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 90
+  "_voice_idx": 91
 }

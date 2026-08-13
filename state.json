@@ -87,7 +87,8 @@
     "fenomena-penggunaan-ekolokasi-oleh-kelelawar",
     "fenomena-penggunaan-pigmen-bakteri-oleh-terumbu-karang",
     "fenomena-penggunaan-kristal-kuarsa-oleh-tanaman",
-    "fenomena-penggunaan-bio-iluminasi-oleh-cacing-laut"
+    "fenomena-penggunaan-bio-iluminasi-oleh-cacing-laut",
+    "fenomena-penggunaan-bakteri-penghasil-bioemas-oleh-pohon-akasia"
   ],
   "published": [
     {
@@ -917,7 +918,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260813_000214",
+      "topic": "fenomena-penggunaan-bakteri-penghasil-bioemas-oleh-pohon-akasia",
+      "title": "Pohon Akasia Menggunakan Bakteri Untuk Menghasilkan Emas!",
+      "path": "/home/runner/work/konten5/konten5/output/20260813_000214_fenomena-penggunaan-bakteri-penghasil-bioemas-oleh-pohon-aka/final.mp4",
+      "video_id": "Zl4btgVuVR4",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 89
+  "_voice_idx": 90
 }

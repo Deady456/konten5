@@ -90,7 +90,8 @@
     "fenomena-penggunaan-bio-iluminasi-oleh-cacing-laut",
     "fenomena-penggunaan-bakteri-penghasil-bioemas-oleh-pohon-akasia",
     "fenomena-penggunaan-kristal-biologis-oleh-hewan-laut-dalam",
-    "fenomena-penggunaan-foto-sintesis-fase-fase-bakteri"
+    "fenomena-penggunaan-foto-sintesis-fase-fase-bakteri",
+    "fenomena-penggunaan-magnetoreseptor-oleh-burung-migrasi"
   ],
   "published": [
     {
@@ -950,7 +951,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260814_120222",
+      "topic": "fenomena-penggunaan-magnetoreseptor-oleh-burung-migrasi",
+      "title": "Burung Migrasi Mengandalkan Medan Magnet Bumi",
+      "path": "/home/runner/work/konten5/konten5/output/20260814_120222_fenomena-penggunaan-magnetoreseptor-oleh-burung-migrasi/final.mp4",
+      "video_id": "GKNAJrub39Q",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 92
+  "_voice_idx": 93
 }

@@ -89,7 +89,8 @@
     "fenomena-penggunaan-kristal-kuarsa-oleh-tanaman",
     "fenomena-penggunaan-bio-iluminasi-oleh-cacing-laut",
     "fenomena-penggunaan-bakteri-penghasil-bioemas-oleh-pohon-akasia",
-    "fenomena-penggunaan-kristal-biologis-oleh-hewan-laut-dalam"
+    "fenomena-penggunaan-kristal-biologis-oleh-hewan-laut-dalam",
+    "fenomena-penggunaan-foto-sintesis-fase-fase-bakteri"
   ],
   "published": [
     {
@@ -939,7 +940,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260814_000151",
+      "topic": "fenomena-penggunaan-foto-sintesis-fase-fase-bakteri",
+      "title": "Mengenal Bakteri yang Bisa Berfotosintesis seperti Tanaman!",
+      "path": "/home/runner/work/konten5/konten5/output/20260814_000151_fenomena-penggunaan-foto-sintesis-fase-fase-bakteri/final.mp4",
+      "video_id": "VXqOdZxHS3A",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 91
+  "_voice_idx": 92
 }

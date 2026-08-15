@@ -91,7 +91,8 @@
     "fenomena-penggunaan-bakteri-penghasil-bioemas-oleh-pohon-akasia",
     "fenomena-penggunaan-kristal-biologis-oleh-hewan-laut-dalam",
     "fenomena-penggunaan-foto-sintesis-fase-fase-bakteri",
-    "fenomena-penggunaan-magnetoreseptor-oleh-burung-migrasi"
+    "fenomena-penggunaan-magnetoreseptor-oleh-burung-migrasi",
+    "fenomena-penggunaan-superkonduktivitas-oleh-cacing-tanah"
   ],
   "published": [
     {
@@ -961,7 +962,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260815_000153",
+      "topic": "fenomena-penggunaan-superkonduktivitas-oleh-cacing-tanah",
+      "title": "Cacing Tanah yang Memiliki Kemampuan Super!",
+      "path": "/home/runner/work/konten5/konten5/output/20260815_000153_fenomena-penggunaan-superkonduktivitas-oleh-cacing-tanah/final.mp4",
+      "video_id": "iioeJbgkMVA",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 93
+  "_voice_idx": 94
 }

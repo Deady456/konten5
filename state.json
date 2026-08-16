@@ -93,7 +93,8 @@
     "fenomena-penggunaan-foto-sintesis-fase-fase-bakteri",
     "fenomena-penggunaan-magnetoreseptor-oleh-burung-migrasi",
     "fenomena-penggunaan-superkonduktivitas-oleh-cacing-tanah",
-    "fenomena-penggunaan-kromatofora-oleh-cumi-cumi"
+    "fenomena-penggunaan-kromatofora-oleh-cumi-cumi",
+    "fenomena-penggunaan-feromone-oleh-semut-pengguna-bambu"
   ],
   "published": [
     {
@@ -983,7 +984,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260816_000159",
+      "topic": "fenomena-penggunaan-feromone-oleh-semut-pengguna-bambu",
+      "title": "Semut Pembangun Bambu: Misteri Feromone Yang Mengagumkan",
+      "path": "/home/runner/work/konten5/konten5/output/20260816_000159_fenomena-penggunaan-feromone-oleh-semut-pengguna-bambu/final.mp4",
+      "video_id": "DaA2tVvQIq8",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 95
+  "_voice_idx": 96
 }

@@ -94,7 +94,8 @@
     "fenomena-penggunaan-magnetoreseptor-oleh-burung-migrasi",
     "fenomena-penggunaan-superkonduktivitas-oleh-cacing-tanah",
     "fenomena-penggunaan-kromatofora-oleh-cumi-cumi",
-    "fenomena-penggunaan-feromone-oleh-semut-pengguna-bambu"
+    "fenomena-penggunaan-feromone-oleh-semut-pengguna-bambu",
+    "fenomena-penggunaan-bakteri-penghasil-biofilm-oleh-k oral-terumbu-karang"
   ],
   "published": [
     {
@@ -994,7 +995,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260816_120233",
+      "topic": "fenomena-penggunaan-bakteri-penghasil-biofilm-oleh-k oral-terumbu-karang",
+      "title": "Mengenal Bakteri Pembuat Biofilm Pada Terumbu Karang",
+      "path": "/home/runner/work/konten5/konten5/output/20260816_120233_fenomena-penggunaan-bakteri-penghasil-biofilm-oleh-k-oral-te/final.mp4",
+      "video_id": "tPGqbdvBGYM",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 96
+  "_voice_idx": 97
 }

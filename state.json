@@ -95,7 +95,8 @@
     "fenomena-penggunaan-superkonduktivitas-oleh-cacing-tanah",
     "fenomena-penggunaan-kromatofora-oleh-cumi-cumi",
     "fenomena-penggunaan-feromone-oleh-semut-pengguna-bambu",
-    "fenomena-penggunaan-bakteri-penghasil-biofilm-oleh-k oral-terumbu-karang"
+    "fenomena-penggunaan-bakteri-penghasil-biofilm-oleh-k oral-terumbu-karang",
+    "fenomena-magnetoresepsi-pada-hiu-putih"
   ],
   "published": [
     {
@@ -1005,7 +1006,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260817_000312",
+      "topic": "fenomena-magnetoresepsi-pada-hiu-putih",
+      "title": "Bagaimana Hiu Putih Membaca Kompas Bumi? Penemuan Magnetoresepsi yang Mengejutkan",
+      "path": "/home/runner/work/konten5/konten5/output/20260817_000312_fenomena-magnetoresepsi-pada-hiu-putih/final.mp4",
+      "video_id": "txN0RxFrcvg",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 97
+  "_voice_idx": 98
 }

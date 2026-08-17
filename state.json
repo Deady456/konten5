@@ -96,7 +96,8 @@
     "fenomena-penggunaan-kromatofora-oleh-cumi-cumi",
     "fenomena-penggunaan-feromone-oleh-semut-pengguna-bambu",
     "fenomena-penggunaan-bakteri-penghasil-biofilm-oleh-k oral-terumbu-karang",
-    "fenomena-magnetoresepsi-pada-hiu-putih"
+    "fenomena-magnetoresepsi-pada-hiu-putih",
+    "fenomena-penggunaan-ultraviolet-oleh-lebah"
   ],
   "published": [
     {
@@ -1016,7 +1017,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260817_120245",
+      "topic": "fenomena-penggunaan-ultraviolet-oleh-lebah",
+      "title": "Misteri UV pada Lebah: Bagaimana Bunga Memandu Penyerbukan dengan Cahaya Tak Terlihat",
+      "path": "/home/runner/work/konten5/konten5/output/20260817_120245_fenomena-penggunaan-ultraviolet-oleh-lebah/final.mp4",
+      "video_id": "ItFYRzC3bjE",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 98
+  "_voice_idx": 99
 }

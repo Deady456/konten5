@@ -97,7 +97,8 @@
     "fenomena-penggunaan-feromone-oleh-semut-pengguna-bambu",
     "fenomena-penggunaan-bakteri-penghasil-biofilm-oleh-k oral-terumbu-karang",
     "fenomena-magnetoresepsi-pada-hiu-putih",
-    "fenomena-penggunaan-ultraviolet-oleh-lebah"
+    "fenomena-penggunaan-ultraviolet-oleh-lebah",
+    "fenomena-penggunaan-suara-ultra-rendah-oleh-gajah"
   ],
   "published": [
     {
@@ -1027,7 +1028,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260818_000414",
+      "topic": "fenomena-penggunaan-suara-ultra-rendah-oleh-gajah",
+      "title": "Suara Rahasia Gajah: Infrasonik yang Menghubungkan Kawanan Jauh",
+      "path": "/home/runner/work/konten5/konten5/output/20260818_000414_fenomena-penggunaan-suara-ultra-rendah-oleh-gajah/final.mp4",
+      "video_id": "ZR2tJ0jdPrQ",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 99
+  "_voice_idx": 100
 }

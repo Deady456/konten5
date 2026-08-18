@@ -98,7 +98,8 @@
     "fenomena-penggunaan-bakteri-penghasil-biofilm-oleh-k oral-terumbu-karang",
     "fenomena-magnetoresepsi-pada-hiu-putih",
     "fenomena-penggunaan-ultraviolet-oleh-lebah",
-    "fenomena-penggunaan-suara-ultra-rendah-oleh-gajah"
+    "fenomena-penggunaan-suara-ultra-rendah-oleh-gajah",
+    "fenomena-bakteri-magnetotaktif"
   ],
   "published": [
     {
@@ -1038,7 +1039,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260818_120253",
+      "topic": "fenomena-bakteri-magnetotaktif",
+      "title": "Rahasia Bakteri Magnetik: Navigasi Miniatur yang Membuat Laut Berbisik",
+      "path": "/home/runner/work/konten5/konten5/output/20260818_120253_fenomena-bakteri-magnetotaktif/final.mp4",
+      "video_id": "FWNvOp1ErYQ",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 100
+  "_voice_idx": 101
 }

@@ -100,7 +100,8 @@
     "fenomena-penggunaan-ultraviolet-oleh-lebah",
     "fenomena-penggunaan-suara-ultra-rendah-oleh-gajah",
     "fenomena-bakteri-magnetotaktif",
-    "keajaiban-bertahan-hidup-tardigrada-beruang-air"
+    "keajaiban-bertahan-hidup-tardigrada-beruang-air",
+    "fenomena-pembekuan-tubuh-katak-kayu-alaska"
   ],
   "published": [
     {
@@ -1060,7 +1061,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260819_120233",
+      "topic": "fenomena-pembekuan-tubuh-katak-kayu-alaska",
+      "title": "Mampu Membeku Tanpa Detak Jantung! Rahasia Bertahan Hidup Katak Kayu Alaska",
+      "path": "/home/runner/work/konten5/konten5/output/20260819_120233_fenomena-pembekuan-tubuh-katak-kayu-alaska/final.mp4",
+      "video_id": "iA4ADDMhioI",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 102
+  "_voice_idx": 103
 }

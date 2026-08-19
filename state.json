@@ -99,7 +99,8 @@
     "fenomena-magnetoresepsi-pada-hiu-putih",
     "fenomena-penggunaan-ultraviolet-oleh-lebah",
     "fenomena-penggunaan-suara-ultra-rendah-oleh-gajah",
-    "fenomena-bakteri-magnetotaktif"
+    "fenomena-bakteri-magnetotaktif",
+    "keajaiban-bertahan-hidup-tardigrada-beruang-air"
   ],
   "published": [
     {
@@ -1049,7 +1050,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260819_055951",
+      "topic": "keajaiban-bertahan-hidup-tardigrada-beruang-air",
+      "title": "Makhluk Abadi Bumi! Ketahanan Luar Biasa Tardigrada di Luar Angkasa",
+      "path": "/home/runner/work/konten5/konten5/output/20260819_055951_keajaiban-bertahan-hidup-tardigrada-beruang-air/final.mp4",
+      "video_id": "GJKtBHc2c_8",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 101
+  "_voice_idx": 102
 }

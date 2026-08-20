@@ -101,7 +101,8 @@
     "fenomena-penggunaan-suara-ultra-rendah-oleh-gajah",
     "fenomena-bakteri-magnetotaktif",
     "keajaiban-bertahan-hidup-tardigrada-beruang-air",
-    "fenomena-pembekuan-tubuh-katak-kayu-alaska"
+    "fenomena-pembekuan-tubuh-katak-kayu-alaska",
+    "fenomena-kemampuan-transdiferensiasi-sel-ubur-ubur-abadi"
   ],
   "published": [
     {
@@ -1071,7 +1072,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260820_000250",
+      "topic": "fenomena-kemampuan-transdiferensiasi-sel-ubur-ubur-abadi",
+      "title": "Ubur-Ubur Abadi: Rahasia Hewan Laut yang Tidak Bisa Mati!",
+      "path": "/home/runner/work/konten5/konten5/output/20260820_000250_fenomena-kemampuan-transdiferensiasi-sel-ubur-ubur-abadi/final.mp4",
+      "video_id": "cfOErY_0uMo",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 103
+  "_voice_idx": 104
 }

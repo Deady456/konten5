@@ -103,7 +103,8 @@
     "keajaiban-bertahan-hidup-tardigrada-beruang-air",
     "fenomena-pembekuan-tubuh-katak-kayu-alaska",
     "fenomena-kemampuan-transdiferensiasi-sel-ubur-ubur-abadi",
-    "fenomena-tembakan-kavitasi-udang-pistol"
+    "fenomena-tembakan-kavitasi-udang-pistol",
+    "fenomena-semprotan-kimia-mendidih-kumbang-pembom"
   ],
   "published": [
     {
@@ -1093,7 +1094,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260821_000158",
+      "topic": "fenomena-semprotan-kimia-mendidih-kumbang-pembom",
+      "title": "Rahasia Senjata Kimia Mendidih Kumbang Pembom yang Melumpuhkan Musuh",
+      "path": "/home/runner/work/konten5/konten5/output/20260821_000158_fenomena-semprotan-kimia-mendidih-kumbang-pembom/final.mp4",
+      "video_id": "Czj1I_dMbYc",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 105
+  "_voice_idx": 106
 }

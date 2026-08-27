@@ -104,7 +104,8 @@
     "fenomena-pembekuan-tubuh-katak-kayu-alaska",
     "fenomena-kemampuan-transdiferensiasi-sel-ubur-ubur-abadi",
     "fenomena-tembakan-kavitasi-udang-pistol",
-    "fenomena-semprotan-kimia-mendidih-kumbang-pembom"
+    "fenomena-semprotan-kimia-mendidih-kumbang-pembom",
+    "kemampuan-regenerasi-organ-ekstrem-axolotl"
   ],
   "published": [
     {
@@ -1104,7 +1105,17 @@
       "publish_at": null,
       "format": null,
       "voice": "unknown"
+    },
+    {
+      "ts": "20260827_094507",
+      "topic": "kemampuan-regenerasi-organ-ekstrem-axolotl",
+      "title": "Hewan Ini Bisa Menumbuhkan Kembali Otak dan Jantungnya!",
+      "path": "/home/runner/work/konten5/konten5/output/20260827_094507_kemampuan-regenerasi-organ-ekstrem-axolotl/final.mp4",
+      "video_id": "PeJ-39k3XHQ",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
     }
   ],
-  "_voice_idx": 106
+  "_voice_idx": 107
 }

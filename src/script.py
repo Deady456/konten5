@@ -206,34 +206,26 @@ def _system_prompt(content_format: str = None) -> str:
         format_instruction = f"\n\n{FORMAT_PROMPTS[content_format]}"
 
     if lang == "id":
-        ts, tw = s["target_seconds"], target_words
-        return f"""Anda adalah penulis skrip YouTube Shorts untuk channel musik dan relaksasi tidur Lofi Sleep.
+        return f"""Anda adalah kurator konten YouTube Shorts untuk channel musik dan relaksasi tidur 'Lofi Sleep'.
+Video Short ini adalah 100% MURNI MUSIK LOFI RELAKSASI (TANPA SUARA ORANG BICARA / TANPA VOICEOVER).
+Di layar hanya akan menampilkan video estetik malam/hujan dan kutipan teks penenang tidur (quote) yang elegan.
 
-Aturan:
-- Skrip harus {ts} detik, ~{tw} kata total ({tw//ts} kata per detik).
-- Nada bicara: Tenang, hangat, menyejukkan, dan penuh ketenangan (cocok didengarkan sebelum tidur atau saat lelah).
-- Mulai dengan HOOK 1 kalimat yang memikat tentang ketenangan, mengatasi overthinking malam, atau keajaiban musik relaksasi tidur dalam <3 detik. Langsung ke topik tanpa sapaan pembuka (DILARANG 'Halo guys', 'Hai', dll).
-- RAHASIA RETENSI (SEAMLESS INFINITY LOOP): Kalimat terakhir pada scene penutup WAJIB dibuat menggantung atau menyatu mulus kembali ke kalimat HOOK pertama di scene 1, sehingga saat video berulang otomatis di YouTube Shorts, transisi terasa alami dan menciptakan efek tonton berulang (retensi >100%).
-- Isi: Pesan menenangkan hati, tips tidur nyenyak, fakta mengapa musik lofi/suara hujan menurunkan detak jantung dan stres, atau afirmasi ketenangan malam.
-- Akhiri dengan CTA 1 kalimat halus: ajak penonton mendengarkan live stream lofi tidur 24 jam channel ini atau subscribe untuk menemani istirahat setiap malam.
-- DILARANG KERAS menggunakan angka numerik/digit (seperti 1, 2, 10, 25, 100, 50%). SEMUA ANGKA WAJIB DITULIS LENGKAP MENGGUNAKAN HURUF/KATA BAHASA INDONESIA (contoh: "sepuluh", "dua puluh lima", "seratus", "lima puluh persen").
-- Setiap scene punya visual_query 2-4 kata benda bahasa Inggris untuk video stok yang estetik, damai, dan tenang di Pexels (contoh: "rainy window bedroom", "cozy bed cat sleeping", "night city rain lights", "warm coffee night", "peaceful nature lake", "candle light dark room").
-{format_instruction}
-Kembalikan ONLY valid JSON, tanpa teks lain. Skema:
-{{"topic": "slug topik sesuai niche", "title": "Judul YouTube max 95 chars, minimal 40 karakter, bikin penasaran dan menenangkan", "thumbnail_text": "Teks super pendek (3-5 kata, HURUF KAPITAL) untuk hook di layar", "description": "3-4 kalimat deskripsi menenangkan dengan 5-8 hashtag relevan", "tags": ["10-15 tag huruf kecil yang relevan"], "scenes": [{{"text": "kalimat narasi bahasa Indonesia yang tenang", "visual_query": "2-4 kata benda Inggris estetik", "factual_subject": null}}]}}"""
+Tugas Anda:
+1. topic: tema suasana malam (contoh: 'hujan malam di kamar', 'meredakan overthinking', 'tidur lelap bersama kucing').
+2. title: Judul YouTube Shorts yang estetik, memikat, dan kaya kata kunci tidur (max 95 karakter, contoh: 'Calm Midnight Rain & Sleepy Lofi Piano 🌙 [Deep Sleep #shorts]').
+3. song_title: Judul melodi musik lofi yang menenangkan (contoh: 'Sleepy Lofi Dreams ~ Soft Piano', 'Midnight Rain Beats', 'Warm Tea & Moonlight').
+4. quote: Kutipan malam 1-2 kalimat pendek yang SANGAT MENENANGKAN, puitis, dan hangat untuk dibaca sebelum tidur (maksimal 20 kata, contoh: 'Tarik napas perlahan... lepaskan semua lelah hari ini. Kamu sudah berjuang hebat, selamat beristirahat 🌙').
+5. description: 3-4 kalimat deskripsi hangat yang mengajak penonton mendengarkan siaran live stream lofi tidur 24 jam channel ini, disertai 5-8 hashtag (#shorts #lofi #lofisleep #musiktidur #relaksasi #tidurnyenyak).
+6. tags: 10-15 tag huruf kecil relevan.
+7. scenes: Tepat 4 adegan dengan visual_query (2-4 kata benda bahasa Inggris) untuk mencari video stok malam yang estetik di Pexels/Pixabay (contoh: "rainy window cozy bedroom night", "cat sleeping warm bed", "night city rain lights aesthetic", "candle glowing dark ambient room").
+
+Kembalikan ONLY valid JSON tanpa format markdown lain. Skema:
+{{"topic": "slug topik", "title": "Judul YouTube Shorts", "song_title": "Judul Lagu Lofi", "quote": "Kutipan malam menenangkan", "description": "Deskripsi YouTube", "tags": ["lofi", "lofi sleep", "musik tidur", "relaksasi", "insomnia", "tidur nyenyak", "rain lofi", "chill beats", "shorts"], "scenes": [{{"visual_query": "rainy window bedroom night"}}, {{"visual_query": "cat sleeping cozy bed"}}, {{"visual_query": "night city rain lights"}}, {{"visual_query": "candle glowing dark room"}}]}}"""
     else:
-        return f"""You write viral YouTube Shorts scripts for a faceless educational facts channel.
-
-Hard rules:
-- The script must run ~{s["target_seconds"]} seconds spoken at ~{target_words} words total.
-- Start with a strong 1-sentence HOOK that creates curiosity in <3 seconds.
-- Body: 4-6 surprising, highly accurate, verifiable facts. DO NOT hallucinate.
-- End with a 1-sentence CTA.
-- Plain spoken English. No emojis.
-- Each scene's visual_query is 2-4 English nouns (e.g. "octopus swimming ocean").
-{format_instruction}
-Return ONLY valid JSON. Schema:
-{{"topic": "short slug", "title": "title max 95 chars, min 40 chars, curiosity-driven and engaging", "thumbnail_text": "Very short text (3-5 words, ALL CAPS) to display large on screen for the first 3 seconds as a hook/thumbnail", "description": "3-4 sentences with 5-8 relevant hashtags", "tags": ["10-15 lowercase relevant tags"], "scenes": [{{"text": "spoken sentence", "visual_query": "nouns", "factual_subject": "Specific real-world entity name (person, place, event, object) mentioned in this sentence to search for its real photo on Wikipedia (e.g. 'RMS Titanic', 'Albert Einstein'). If no physical subject, null"}}]}}"""
+        return f"""You curate pure Lo-Fi music YouTube Shorts for a 24/7 Lo-Fi sleep channel.
+This Short is 100% PURE LO-FI MUSIC (NO SPOKEN VOICE, NO VOICEOVER).
+Return ONLY valid JSON:
+{{"topic": "topic slug", "title": "Aesthetic YouTube title max 95 chars with emojis and #shorts", "song_title": "Lofi Chill Beats", "quote": "Short soothing bedtime quote max 20 words", "description": "Description with invitation to 24/7 stream and hashtags", "tags": ["lofi", "lofisleep", "shorts"], "scenes": [{{"visual_query": "rainy window cozy bedroom night"}}, {{"visual_query": "cat sleeping warm bed"}}, {{"visual_query": "night city lights rain"}}, {{"visual_query": "candle glowing dark room"}}]}}"""
 
 
 
@@ -339,29 +331,12 @@ def generate(content_format: str = None) -> dict:
         ])
 
         hook_text = data.get("thumbnail_text", "").strip()
-        if hook_text and data.get("scenes"):
-            first_vq = data["scenes"][0].get("visual_query", "abstract background")
-            data["scenes"].insert(0, {"text": hook_text, "visual_query": first_vq})
+        if not data.get("quote"):
+            data["quote"] = hook_text or "tarik napas perlahan... istirahatlah yang tenang malam ini 🌙"
 
-        for i, sc in enumerate(data["scenes"]):
+        for i, sc in enumerate(data.get("scenes", [])):
             if "visual_query" not in sc or not sc["visual_query"]:
-                words = re.findall(r"[a-zA-Z]{3,}", sc.get("text", ""))
-                fallback = " ".join(words[-3:]) if len(words) >= 3 else "abstract background"
-                print(f'    scene {i}: missing visual_query, using "{fallback}"')
-                sc["visual_query"] = fallback
-
-        for sc in data["scenes"]:
-            sc["text"] = replace_numbers_id(sc.get("text", ""))
-        if "title" in data:
-            data["title"] = replace_numbers_id(data["title"])
-        if "thumbnail_text" in data:
-            data["thumbnail_text"] = replace_numbers_id(data["thumbnail_text"])
-        data["full_text"] = " ... ".join(sc["text"] for sc in data["scenes"])
-        wc = len(data["full_text"].split())
-
-        if wc < min_words:
-            print(f"    WARNING: script too short ({wc} words, need {min_words}), retrying...")
-            continue
+                sc["visual_query"] = "rainy window cozy bedroom night"
 
         title = data.get("title", "")
         if _is_duplicate_title(title, published):
@@ -373,6 +348,7 @@ def generate(content_format: str = None) -> dict:
         data["format"] = content_format
 
         print(f"    title: {data['title']}")
+        print(f"    quote: {data.get('quote')}")
         return data
 
     print("    WARNING: could not generate unique/long enough script after 4 attempts, publishing anyway")

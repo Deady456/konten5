@@ -2,10 +2,10 @@ import argparse
 import json
 import re
 import time
+import random
 from datetime import datetime
-from . import script, voice, captions, visuals, lofi_visuals, assemble, assemble_vanta, upload, state, visuals_ai
-from . import branding, review
-from .config import CONFIG, OUTPUT_DIR
+from . import script, lofi_visuals, assemble, upload, state, review
+from .config import CONFIG, OUTPUT_DIR, ROOT
 
 
 def slug(s: str) -> str:
@@ -41,109 +41,59 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
         selected_format = None
 
     # ============================================================
-    # Step 1: Generate script
+    # Step 1: Generate theme, title, and bedtime quote
     # ============================================================
-    _log("1/8 Generating script with LLM")
-    data = script.generate(content_format=selected_format)
-    _log(f"    topic: {data['topic']} ({len(data['scenes'])} scenes)")
+    _log("1/5 Generating theme, title, and bedtime quote with LLM")
+    data = script.generate()
+    _log(f"    title: {data['title']}")
+    _log(f"    quote: {data.get('quote')}")
 
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     work = OUTPUT_DIR / f"{stamp}_{slug(data['topic'])}"
     work.mkdir(parents=True, exist_ok=True)
-    with open(work / 'script.json', 'w') as f:
-        json.dump(data, f, indent=2)
+    with open(work / 'script.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
     # ============================================================
-    # Step 2: Synthesize voiceover (with variety)
+    # Step 2: Select Pure Lo-Fi Music Track
     # ============================================================
-    _log("2/8 Synthesizing voiceover")
-    voice_mp3 = voice.synth(data["full_text"], work / "voice.mp3")
-    if not voice_mp3.exists() or voice_mp3.stat().st_size < 1024:
-        raise RuntimeError(f"Voice synthesis failed: {voice_mp3} is {voice_mp3.stat().st_size if voice_mp3.exists() else 0} bytes")
-    _log(f"    voice saved ({voice_mp3.stat().st_size/1024:.0f} KB)")
+    _log("2/5 Selecting pure Lo-Fi music track (100% Music, NO voiceover)")
+    music_dir = ROOT / "assets" / "music"
+    music_candidates = []
+    if music_dir.is_dir():
+        for ext in ("*.mp3", "*.wav", "*.m4a", "*.ogg"):
+            music_candidates.extend(list(music_dir.rglob(ext)))
+    if not music_candidates:
+        music_candidates = [p for p in (ROOT / "assets").glob("*.mp3")]
+
+    chosen_music = random.choice(music_candidates) if music_candidates else (ROOT / "assets" / "bg.mp3")
+    _log(f"    music chosen: {chosen_music.name}")
 
     # ============================================================
-    # Step 3: Transcribe for captions
+    # Step 3: Fetch nature & lofi visuals
     # ============================================================
-    _log("3/8 Transcribing for word-level captions (Faster-Whisper)")
-    _log("    loading model (first run downloads)...")
-    t0 = time.time()
-    words = captions.transcribe_words(voice_mp3, original_text=data["full_text"])
-    _log(f"    {len(words)} words in {time.time()-t0:.1f}s")
-
-    # ============================================================
-    # Step 4: Fetch nature & lofi visuals
-    _log("4/8 Fetching nature & lofi visuals")
-    scene_videos = lofi_visuals.fetch_all(data["scenes"], work / "broll", words=words, voice_audio=voice_mp3)
+    _log("3/5 Fetching cozy & aesthetic Lo-Fi stock videos from Pexels/Pixabay")
+    scene_videos = lofi_visuals.fetch_all(data.get("scenes", []), work / "broll", target_total_dur=40.0)
     _log(f"    {len(scene_videos)} clips ready")
 
     # ============================================================
-    # Step 5: Write caption file
+    # Step 4: Assemble pure Lo-Fi Short video
     # ============================================================
-    _log("5/8 Writing caption file")
-    from .config import CONFIG as CFG
-    # Skip the hook portion (first thumb_dur seconds, shown as the thumbnail)
-    # so captions stay synced to the audio. The video plays the thumbnail for
-    # thumb_dur seconds, then content scenes begin at the same audio position
-    # where these captions start -> perfect sync, no double offset.
-    hook_cfg = CFG.get("hook_text", {})
-    hook_enabled = hook_cfg.get("enabled", False)
-    hook_word_count = 0
-    if hook_enabled and data.get("scenes"):
-        hook_word_count = len(data["scenes"][0]["text"].split())
-    captions_words = words
-    ass_path = captions.write_ass(captions_words, work / "captions.ass",
-                                  CFG["video"]["width"], CFG["video"]["height"], offset=-0.3)
-
-    # ============================================================
-    # Step 5.5: Thumbnail image disabled - hook shown as popup overlay
-    # ============================================================
-    _log("5.5/8 Thumbnail image disabled; hook will be popup overlay")
-    thumbnail_img = None
-
-    # ============================================================
-    # Step 6: Assemble video
-    # ============================================================
-    _log("6/8 Assembling final video with Vanta (Remotion)")
-    _log("    processing scenes and running React render...")
-    t0 = time.time()
-    final = assemble_vanta.build(
+    _log("4/5 Assembling pure Lo-Fi Short (100% music + ambient quote)")
+    final = assemble.build_pure_lofi(
         scene_videos=scene_videos,
-        voice_audio=voice_mp3,
-        captions_ass=ass_path,
-        words=words,
-        scenes=data["scenes"],
-        out_path=work / "final_raw.mp4",
+        music_track=chosen_music,
+        out_path=work / "final.mp4",
         work_dir=work / "ffmpeg",
-        videos_per_scene=2,
-        hook_text=data.get("thumbnail_text", ""),
-        thumbnail_img=None,
+        quote_text=data.get("quote", ""),
+        song_title=data.get("song_title", chosen_music.stem),
+        target_dur=40.0,
     )
-    dur = time.time() - t0
     sz = final.stat().st_size / (1024 * 1024)
-    _log(f"    raw video: {final.name} ({sz:.0f} MB, {dur:.0f}s render)")
+    _log(f"    final video ready: {final.name} ({sz:.1f} MB)")
 
     # ============================================================
-    # Step 7: Apply branding (intro/outro/watermark)
-    # ============================================================
-    _log("7/8 Applying branding")
-    branded = branding.apply_all(final, work / "branding")
-    if branded != final:
-        # Move branded to final
-        final_branded = work / "final.mp4"
-        branded.rename(final_branded)
-        final = final_branded
-    else:
-        # Just rename raw to final
-        final_branded = work / "final.mp4"
-        final.rename(final_branded)
-        final = final_branded
-
-    sz = final.stat().st_size / (1024 * 1024)
-    _log(f"    final: {final.name} ({sz:.0f} MB)")
-
-    # ============================================================
-    # Step 8: Review or Upload
+    # Step 5: Review or Upload
     # ============================================================
     video_id = None
 
@@ -153,13 +103,13 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
     needs_review = force_review or review.should_review(video_count)
 
     if needs_review and upload_to_youtube:
-        _log("8/8 Saving draft for review")
+        _log("5/5 Saving draft for review")
         draft_path = review.save_draft(data, final)
         _log(f"    Draft saved: {draft_path.name}")
         _log("    Run: python -m src.review --list  (to see drafts)")
         _log("    Run: python -m src.review --approve <name>  (to approve)")
     elif upload_to_youtube:
-        _log("8/8 Uploading to YouTube")
+        _log("5/5 Uploading to YouTube")
         video_id = upload.upload_video(
             video_path=final,
             title=data["title"],
@@ -169,7 +119,7 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
         )
         _log(f"    uploaded: https://youtube.com/shorts/{video_id}")
     else:
-        _log("8/8 Upload skipped (--no-upload)")
+        _log("5/5 Upload skipped (--no-upload)")
 
     # Save state
     state.add_topic(data["topic"])

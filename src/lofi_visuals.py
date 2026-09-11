@@ -270,13 +270,18 @@ def _calculate_scene_durations(words: list[dict], scenes: list[dict], total_audi
     return durations
 
 
-def fetch_all(scenes: list[dict], out_dir: Path, words: list[dict] = None, voice_audio: Path = None) -> list[Path]:
+def fetch_all(scenes: list[dict], out_dir: Path, words: list[dict] = None, voice_audio: Path = None, target_total_dur: float = None) -> list[Path]:
     out_dir.mkdir(parents=True, exist_ok=True)
     all_clips = []
     v = CONFIG["video"]
     w, h, fps = v["width"], v["height"], v["fps"]
 
-    total_audio_dur = probe_duration(voice_audio) if (voice_audio and voice_audio.exists()) else (len(scenes) * 7.0)
+    if target_total_dur:
+        total_audio_dur = float(target_total_dur)
+    elif voice_audio and voice_audio.exists():
+        total_audio_dur = probe_duration(voice_audio)
+    else:
+        total_audio_dur = float(len(scenes) * 10.0)
     scene_durations = _calculate_scene_durations(words, scenes, total_audio_dur)
 
     # Usage trackers to enforce strict MAX 2X visual repetition rule across the entire video

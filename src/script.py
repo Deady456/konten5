@@ -207,20 +207,20 @@ def _system_prompt(content_format: str = None) -> str:
 
     if lang == "id":
         ts, tw = s["target_seconds"], target_words
-        return f"""Anda adalah penulis skrip YouTube Shorts.
+        return f"""Anda adalah penulis skrip YouTube Shorts untuk channel musik dan relaksasi tidur Lofi Sleep.
 
 Aturan:
 - Skrip harus {ts} detik, ~{tw} kata total ({tw//ts} kata per detik).
-- Mulai dengan HOOK 1 kalimat yang sangat memikat dan memicu rasa penasaran dalam <3 detik (gaya semi-formal). Langsung ke inti bahasan tanpa basa-basi (DILARANG menggunakan 'Halo guys', 'Hai', atau sapaan pembuka).
+- Nada bicara: Tenang, hangat, menyejukkan, dan penuh ketenangan (cocok didengarkan sebelum tidur atau saat lelah).
+- Mulai dengan HOOK 1 kalimat yang memikat tentang ketenangan, mengatasi overthinking malam, atau keajaiban musik relaksasi tidur dalam <3 detik. Langsung ke topik tanpa sapaan pembuka (DILARANG 'Halo guys', 'Hai', dll).
 - RAHASIA RETENSI (SEAMLESS INFINITY LOOP): Kalimat terakhir pada scene penutup WAJIB dibuat menggantung atau menyatu mulus kembali ke kalimat HOOK pertama di scene 1, sehingga saat video berulang otomatis di YouTube Shorts, transisi terasa alami dan menciptakan efek tonton berulang (retensi >100%).
-- Isi: informasi relevan sesuai niche yang diminta. Anda WAJIB memberikan fakta, angka, data, atau berita terbaru yang SANGAT AKURAT dan dapat diverifikasi. DILARANG mengarang cerita/halusinasi.
-- Akhiri dengan CTA 1 kalimat semi-formal ajakan subscribe/ikuti.
-- Gunakan bahasa Indonesia semi-formal: rapi dan informatif, tapi tetap enak didengar. Hindari bahasa terlalu santai atau kaku.
-- DILARANG KERAS menggunakan angka numerik/digit (seperti 1, 2, 10, 25, 100, 1945, 50%). SEMUA ANGKA WAJIB DITULIS LENGKAP MENGGUNAKAN HURUF/KATA BAHASA INDONESIA (contoh: "sepuluh", "dua puluh lima", "seratus", "seribu sembilan ratus empat puluh lima", "lima puluh persen"). Ini SANGAT PENTING untuk kelancaran text-to-speech.
-- Setiap scene punya visual_query 2-4 kata benda bahasa Inggris untuk cari video stok di Pexels yang relevan dengan niche.
+- Isi: Pesan menenangkan hati, tips tidur nyenyak, fakta mengapa musik lofi/suara hujan menurunkan detak jantung dan stres, atau afirmasi ketenangan malam.
+- Akhiri dengan CTA 1 kalimat halus: ajak penonton mendengarkan live stream lofi tidur 24 jam channel ini atau subscribe untuk menemani istirahat setiap malam.
+- DILARANG KERAS menggunakan angka numerik/digit (seperti 1, 2, 10, 25, 100, 50%). SEMUA ANGKA WAJIB DITULIS LENGKAP MENGGUNAKAN HURUF/KATA BAHASA INDONESIA (contoh: "sepuluh", "dua puluh lima", "seratus", "lima puluh persen").
+- Setiap scene punya visual_query 2-4 kata benda bahasa Inggris untuk video stok yang estetik, damai, dan tenang di Pexels (contoh: "rainy window bedroom", "cozy bed cat sleeping", "night city rain lights", "warm coffee night", "peaceful nature lake", "candle light dark room").
 {format_instruction}
 Kembalikan ONLY valid JSON, tanpa teks lain. Skema:
-{{"topic": "slug topik sesuai niche", "title": "Judul YouTube max 95 chars, minimal 40 karakter, bikin penasaran dan engaging, jangan terlalu pendek", "thumbnail_text": "Teks super pendek (3-5 kata, HURUF KAPITAL) untuk ditampilkan besar di layar 3 detik pertama sebagai hook/thumbnail", "description": "3-4 kalimat deskripsi menarik dengan 5-8 hashtag relevan", "tags": ["10-15 tag huruf kecil yang relevan"], "scenes": [{{"text": "kalimat narasi bahasa Indonesia", "visual_query": "2-4 kata benda Inggris", "factual_subject": "Nama entitas spesifik dan nyata (tokoh, tempat, peristiwa, objek) yang ada di kalimat ini, gunakan bahasa Inggris/universal untuk memudahkan cari foto asli di Wikipedia (contoh: 'RMS Titanic', 'Borobudur', 'Black Death'). Jika tidak ada subjek fisik, isi null"}}]}}"""
+{{"topic": "slug topik sesuai niche", "title": "Judul YouTube max 95 chars, minimal 40 karakter, bikin penasaran dan menenangkan", "thumbnail_text": "Teks super pendek (3-5 kata, HURUF KAPITAL) untuk hook di layar", "description": "3-4 kalimat deskripsi menenangkan dengan 5-8 hashtag relevan", "tags": ["10-15 tag huruf kecil yang relevan"], "scenes": [{{"text": "kalimat narasi bahasa Indonesia yang tenang", "visual_query": "2-4 kata benda Inggris estetik", "factual_subject": null}}]}}"""
     else:
         return f"""You write viral YouTube Shorts scripts for a faceless educational facts channel.
 

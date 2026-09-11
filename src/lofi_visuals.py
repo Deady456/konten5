@@ -21,14 +21,16 @@ HEADERS = {
 JUNK_WORDS = {"cartoon", "drawing", "illustration", "anime", "clipart", "vector", "meme", "banner", "ad"}
 
 GENERIC_NICHES = [
-    "cinematic motion background",
-    "futuristic technology digital",
-    "nature landscape dramatic",
-    "abstract light movement",
-    "macro science detailed",
-    "dark atmospheric cinematic",
-    "aerial view cinematic",
-    "neon abstract motion",
+    "rainy window cozy bedroom night",
+    "cat sleeping cozy warm bed",
+    "coffee cup steam dark room",
+    "night city rain lights aesthetic",
+    "fireplace burning cozy living room",
+    "calm ocean waves night moonlight",
+    "autumn leaves rain puddle quiet",
+    "peaceful forest sunlight morning mist",
+    "candle glowing dark ambient room",
+    "lofi study desk lamp night",
 ]
 
 def probe_duration(path: Path) -> float:

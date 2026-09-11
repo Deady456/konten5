@@ -2,6 +2,8 @@ name: Daily Video Upload
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 13 * * *'  # Pukul 20:00 WIB (Waktu prima santai & menjelang tidur)
 
 permissions:
   contents: write

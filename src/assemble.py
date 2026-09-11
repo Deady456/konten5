@@ -191,15 +191,15 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: TopBadge, Arial, 34, &H00E8F8F5&, &H000000FF&, &H00000000&, &H80000000&, 1, 0, 0, 0, 100, 100, 1, 0, 1, 3, 2, 8, 40, 40, 240, 1
-Style: MainQuote, Georgia, 46, &H00FFFFFF&, &H000000FF&, &H00000000&, &H90000000&, 0, 1, 0, 0, 100, 100, 1, 0, 3, 4, 3, 5, 80, 80, 0, 1
-Style: BottomBadge, Arial, 32, &H00A0D2FA&, &H000000FF&, &H00000000&, &H80000000&, 1, 0, 0, 0, 100, 100, 1, 0, 1, 3, 2, 2, 40, 40, 320, 1
+Style: TopBadge, Arial, 32, &H00E8F8F5&, &H000000FF&, &H00000000&, &H80000000&, 1, 0, 0, 0, 100, 100, 1, 0, 1, 3, 2, 8, 40, 40, 200, 1
+Style: MainQuote, Georgia, 42, &H00FFFFFF&, &H000000FF&, &H00000000&, &H90000000&, 0, 1, 0, 0, 100, 100, 1, 0, 1, 3, 2, 2, 60, 60, 460, 1
+Style: BottomBadge, Arial, 28, &H00A0D2FA&, &H000000FF&, &H00000000&, &H80000000&, 1, 0, 0, 0, 100, 100, 1, 0, 1, 3, 2, 2, 40, 40, 360, 1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.80,{end_badge_t_str},TopBadge,,0,0,0,,{{\\fad(800,800)}}♫ {display_title}
 Dialogue: 0,0:00:01.50,{end_t_str},MainQuote,,0,0,0,,{{\\fad(1200,1200)}}{wrapped_quote}
-Dialogue: 0,0:00:03.00,{end_badge_t_str},BottomBadge,,0,0,0,,{{\\fad(1000,1000)}}🌙 24/7 Live Stream on Channel
+Dialogue: 0,0:00:02.80,{end_badge_t_str},BottomBadge,,0,0,0,,{{\\fad(1000,1000)}}🌙 24/7 Live Stream on Channel
 """
     ass_path.write_text(ass_content, encoding="utf-8")
     ass_escaped = str(ass_path.absolute()).replace("\\", "/").replace(":", "\\:")

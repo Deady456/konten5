@@ -1,4 +1,12 @@
 
+import sys
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+        sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        pass
+
 def num_to_words_id(n: int) -> str:
     if n == 0:
         return 'nol'

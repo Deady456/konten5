@@ -106,7 +106,8 @@
     "fenomena-tembakan-kavitasi-udang-pistol",
     "fenomena-semprotan-kimia-mendidih-kumbang-pembom",
     "kemampuan-regenerasi-organ-ekstrem-axolotl",
-    "meredakan-overthinking-hujan-malam"
+    "meredakan-overthinking-hujan-malam",
+    "suara-hujan-jendela-dan-lampu-temaram"
   ],
   "published": [
     {
@@ -1123,6 +1124,16 @@
       "title": "Hujan Malam & Piano Lofi Penenang Overthinking \ud83c\udf19 [Deep Sleep #shorts]",
       "path": "C:\\Users\\Administrator\\Desktop\\konten5_repo\\output\\20260912_010714_meredakan-overthinking-hujan-malam\\final.mp4",
       "video_id": null,
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
+    },
+    {
+      "ts": "20260912_160909",
+      "topic": "suara-hujan-jendela-dan-lampu-temaram",
+      "title": "Soft Rain on Window & Cozy Lofi Beat \ud83c\udf19 [Deep Sleep Music #shorts]",
+      "path": "/home/runner/work/konten5/konten5/output/20260912_160909_suara-hujan-jendela-dan-lampu-temaram/final.mp4",
+      "video_id": "95hMR-6rWGo",
       "publish_at": null,
       "format": null,
       "voice": "unknown"

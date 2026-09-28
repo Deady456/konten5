@@ -123,7 +123,8 @@
     "mengembara-di-pulau-misterius-malam",
     "malam-dan-laguna-bintang",
     "moonlight-rooftop-glasshouse",
-    "aurora-borealis-malam"
+    "aurora-borealis-malam",
+    "gemerlap-bintang-danau-malam"
   ],
   "published": [
     {
@@ -1310,6 +1311,16 @@
       "title": "Aurora Night Sky & Gentle Lofi Beats \ud83c\udf0c [Deep Sleep #shorts]",
       "path": "/home/runner/work/konten5/konten5/output/20260927_173820_aurora-borealis-malam/final.mp4",
       "video_id": "MefX-4nHWHI",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
+    },
+    {
+      "ts": "20260928_200529",
+      "topic": "gemerlap-bintang-danau-malam",
+      "title": "Starry Lake Night & Soothing Lofi Beats \ud83c\udf0c [Deep Sleep #shorts]",
+      "path": "/home/runner/work/konten5/konten5/output/20260928_200529_gemerlap-bintang-danau-malam/final.mp4",
+      "video_id": "Ep0ydj7FYPM",
       "publish_at": null,
       "format": null,
       "voice": "unknown"

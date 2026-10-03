@@ -128,7 +128,8 @@
     "kebun-lantern-malam-menyala",
     "gemerisik-dedaunan-bambu-sungai-malam",
     "koi-pond-moonlit-sleep",
-    "angin-berbisik-puncak-gedung-malam"
+    "angin-berbisik-puncak-gedung-malam",
+    "meteor-hujan-malam-padang-pasir"
   ],
   "published": [
     {
@@ -1365,6 +1366,16 @@
       "title": "Whispering Wind atop the City Skyline \ud83c\udf03 Lofi Sleep Beats #shorts",
       "path": "/home/runner/work/konten5/konten5/output/20261002_181905_angin-berbisik-puncak-gedung-malam/final.mp4",
       "video_id": "6-Jx8ZDSKU0",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
+    },
+    {
+      "ts": "20261003_170912",
+      "topic": "meteor-hujan-malam-padang-pasir",
+      "title": "Meteor Rain Over Desert Night \ud83c\udf0c Lofi Sleep Beats #shorts",
+      "path": "/home/runner/work/konten5/konten5/output/20261003_170912_meteor-hujan-malam-padang-pasir/final.mp4",
+      "video_id": "nxm44DPIeUI",
       "publish_at": null,
       "format": null,
       "voice": "unknown"

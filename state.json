@@ -129,7 +129,8 @@
     "gemerisik-dedaunan-bambu-sungai-malam",
     "koi-pond-moonlit-sleep",
     "angin-berbisik-puncak-gedung-malam",
-    "meteor-hujan-malam-padang-pasir"
+    "meteor-hujan-malam-padang-pasir",
+    "candlelit-tent-night-forest"
   ],
   "published": [
     {
@@ -1376,6 +1377,16 @@
       "title": "Meteor Rain Over Desert Night \ud83c\udf0c Lofi Sleep Beats #shorts",
       "path": "/home/runner/work/konten5/konten5/output/20261003_170912_meteor-hujan-malam-padang-pasir/final.mp4",
       "video_id": "nxm44DPIeUI",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
+    },
+    {
+      "ts": "20261004_172425",
+      "topic": "candlelit-tent-night-forest",
+      "title": "Cozy Candlelit Tent & Gentle Rain Lofi \ud83c\udf27\ufe0f [Deep Sleep #shorts]",
+      "path": "/home/runner/work/konten5/konten5/output/20261004_172425_candlelit-tent-night-forest/final.mp4",
+      "video_id": "gPrNpGK6Rik",
       "publish_at": null,
       "format": null,
       "voice": "unknown"

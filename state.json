@@ -131,7 +131,8 @@
     "angin-berbisik-puncak-gedung-malam",
     "meteor-hujan-malam-padang-pasir",
     "candlelit-tent-night-forest",
-    "jangkrik-malam-di-padang-rumput"
+    "jangkrik-malam-di-padang-rumput",
+    "candlelight-window-starlit-night"
   ],
   "published": [
     {
@@ -1398,6 +1399,16 @@
       "title": "Gentle Cricket Chirps & Lofi Night \ud83c\udf19 [Deep Sleep #shorts]",
       "path": "/home/runner/work/konten5/konten5/output/20261006_185243_jangkrik-malam-di-padang-rumput/final.mp4",
       "video_id": "5eZ-F9_TtR4",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
+    },
+    {
+      "ts": "20261007_191919",
+      "topic": "candlelight-window-starlit-night",
+      "title": "Gentle Candlelight & Starlit Window Lofi \ud83c\udf19 [Deep Sleep #shorts]",
+      "path": "/home/runner/work/konten5/konten5/output/20261007_191919_candlelight-window-starlit-night/final.mp4",
+      "video_id": "-VO8FB7rzI8",
       "publish_at": null,
       "format": null,
       "voice": "unknown"

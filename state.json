@@ -139,7 +139,8 @@
     "jalan-setapak-lentera-desa-malam",
     "teras-kayu-malam-cahaya-lentera-hujan-lembut",
     "studio-attic-starlit-night",
-    "studio-night-glow-soft-monitor"
+    "studio-night-glow-soft-monitor",
+    "floating-lanterns-quiet-lake-night"
   ],
   "published": [
     {
@@ -1486,6 +1487,16 @@
       "title": "Soft Neon Glow & Lofi Night Beats \ud83c\udf19 [Deep Sleep #shorts]",
       "path": "/home/runner/work/konten5/konten5/output/20261013_194932_studio-night-glow-soft-monitor/final.mp4",
       "video_id": "ssCUwZYQwsM",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
+    },
+    {
+      "ts": "20261014_175452",
+      "topic": "floating-lanterns-quiet-lake-night",
+      "title": "Serene Floating Lanterns & Lofi Waves \ud83c\udf0c [Deep Sleep #shorts]",
+      "path": "/home/runner/work/konten5/konten5/output/20261014_175452_floating-lanterns-quiet-lake-night/final.mp4",
+      "video_id": "PMnP4E__In0",
       "publish_at": null,
       "format": null,
       "voice": "unknown"

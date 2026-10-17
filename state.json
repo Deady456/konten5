@@ -142,7 +142,8 @@
     "studio-night-glow-soft-monitor",
     "floating-lanterns-quiet-lake-night",
     "relaxing-night-train-ride",
-    "kabin-salju-malam-hangat"
+    "kabin-salju-malam-hangat",
+    "riverbank-night-rainy-whispers"
   ],
   "published": [
     {
@@ -1519,6 +1520,16 @@
       "title": "Cozy Snowy Cabin Night & Gentle Lofi Beats \u2744\ufe0f\ud83c\udf19 [Deep Sleep #shorts]",
       "path": "/home/runner/work/konten5/konten5/output/20261016_171635_kabin-salju-malam-hangat/final.mp4",
       "video_id": "oGxQUypLAsQ",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
+    },
+    {
+      "ts": "20261017_161550",
+      "topic": "riverbank-night-rainy-whispers",
+      "title": "Gentle River Rain & Lofi Night Beats \ud83c\udf27\ufe0f [Deep Sleep #shorts]",
+      "path": "/home/runner/work/konten5/konten5/output/20261017_161550_riverbank-night-rainy-whispers/final.mp4",
+      "video_id": "j_B0ZQjZd9k",
       "publish_at": null,
       "format": null,
       "voice": "unknown"

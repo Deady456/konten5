@@ -143,7 +143,8 @@
     "floating-lanterns-quiet-lake-night",
     "relaxing-night-train-ride",
     "kabin-salju-malam-hangat",
-    "riverbank-night-rainy-whispers"
+    "riverbank-night-rainy-whispers",
+    "oasis-malam-gurun-cahaya-bulan"
   ],
   "published": [
     {
@@ -1530,6 +1531,16 @@
       "title": "Gentle River Rain & Lofi Night Beats \ud83c\udf27\ufe0f [Deep Sleep #shorts]",
       "path": "/home/runner/work/konten5/konten5/output/20261017_161550_riverbank-night-rainy-whispers/final.mp4",
       "video_id": "j_B0ZQjZd9k",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
+    },
+    {
+      "ts": "20261018_162708",
+      "topic": "oasis-malam-gurun-cahaya-bulan",
+      "title": "Serene Desert Moonlight & Gentle Lofi Beats \ud83c\udf35\ud83c\udf19 [Deep Sleep #shorts]",
+      "path": "/home/runner/work/konten5/konten5/output/20261018_162708_oasis-malam-gurun-cahaya-bulan/final.mp4",
+      "video_id": "LhS0V65f3hc",
       "publish_at": null,
       "format": null,
       "voice": "unknown"

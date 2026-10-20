@@ -145,7 +145,8 @@
     "kabin-salju-malam-hangat",
     "riverbank-night-rainy-whispers",
     "oasis-malam-gurun-cahaya-bulan",
-    "balcony-moonlit-snowfall-night"
+    "balcony-moonlit-snowfall-night",
+    "firefly-meadow-night"
   ],
   "published": [
     {
@@ -1552,6 +1553,16 @@
       "title": "Snowy Moonlit Balcony Lofi \ud83c\udf19 Gentle Beats for Deep Sleep #shorts",
       "path": "/home/runner/work/konten5/konten5/output/20261019_191149_balcony-moonlit-snowfall-night/final.mp4",
       "video_id": "OdZult0yFXw",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
+    },
+    {
+      "ts": "20261020_175254",
+      "topic": "firefly-meadow-night",
+      "title": "Glowing Firefly Meadow & Soft Lofi Beats \ud83c\udf0c [Deep Sleep #shorts]",
+      "path": "/home/runner/work/konten5/konten5/output/20261020_175254_firefly-meadow-night/final.mp4",
+      "video_id": "NLd5qyEDh4c",
       "publish_at": null,
       "format": null,
       "voice": "unknown"

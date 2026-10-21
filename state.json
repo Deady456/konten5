@@ -146,7 +146,8 @@
     "riverbank-night-rainy-whispers",
     "oasis-malam-gurun-cahaya-bulan",
     "balcony-moonlit-snowfall-night",
-    "firefly-meadow-night"
+    "firefly-meadow-night",
+    "midnight-beach-bonfire"
   ],
   "published": [
     {
@@ -1563,6 +1564,16 @@
       "title": "Glowing Firefly Meadow & Soft Lofi Beats \ud83c\udf0c [Deep Sleep #shorts]",
       "path": "/home/runner/work/konten5/konten5/output/20261020_175254_firefly-meadow-night/final.mp4",
       "video_id": "NLd5qyEDh4c",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
+    },
+    {
+      "ts": "20261021_175830",
+      "topic": "midnight-beach-bonfire",
+      "title": "Cozy Midnight Beach Bonfire & Lofi Waves \ud83c\udf0a\u2728 [Deep Sleep #shorts]",
+      "path": "/home/runner/work/konten5/konten5/output/20261021_175830_midnight-beach-bonfire/final.mp4",
+      "video_id": "RnNiNNTYSlw",
       "publish_at": null,
       "format": null,
       "voice": "unknown"

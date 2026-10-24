@@ -148,7 +148,8 @@
     "balcony-moonlit-snowfall-night",
     "firefly-meadow-night",
     "midnight-beach-bonfire",
-    "lavender-garden-night-breeze"
+    "lavender-garden-night-breeze",
+    "misty-stone-bridge-night"
   ],
   "published": [
     {
@@ -1585,6 +1586,16 @@
       "title": "Serene Lavender Night Breeze & Lofi Sleep Beats \ud83c\udf0c [Deep Sleep #shorts]",
       "path": "/home/runner/work/konten5/konten5/output/20261022_175513_lavender-garden-night-breeze/final.mp4",
       "video_id": "JMwTV5srsyo",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
+    },
+    {
+      "ts": "20261024_163003",
+      "topic": "misty-stone-bridge-night",
+      "title": "Misty Stone Bridge & Lofi Night Breeze \ud83c\udf0c [Deep Sleep #shorts]",
+      "path": "/home/runner/work/konten5/konten5/output/20261024_163003_misty-stone-bridge-night/final.mp4",
+      "video_id": "SuWcgrb5xeM",
       "publish_at": null,
       "format": null,
       "voice": "unknown"

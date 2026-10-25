@@ -149,7 +149,8 @@
     "firefly-meadow-night",
     "midnight-beach-bonfire",
     "lavender-garden-night-breeze",
-    "misty-stone-bridge-night"
+    "misty-stone-bridge-night",
+    "midnight-library-quiet-reads"
   ],
   "published": [
     {
@@ -1596,6 +1597,16 @@
       "title": "Misty Stone Bridge & Lofi Night Breeze \ud83c\udf0c [Deep Sleep #shorts]",
       "path": "/home/runner/work/konten5/konten5/output/20261024_163003_misty-stone-bridge-night/final.mp4",
       "video_id": "SuWcgrb5xeM",
+      "publish_at": null,
+      "format": null,
+      "voice": "unknown"
+    },
+    {
+      "ts": "20261025_170113",
+      "topic": "midnight-library-quiet-reads",
+      "title": "Cozy Midnight Library Lofi Beats \ud83c\udf19 [Deep Sleep #shorts]",
+      "path": "/home/runner/work/konten5/konten5/output/20261025_170113_midnight-library-quiet-reads/final.mp4",
+      "video_id": "76B1yB6cjpY",
       "publish_at": null,
       "format": null,
       "voice": "unknown"
